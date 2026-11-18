@@ -13,15 +13,34 @@ reels, you press publish. It takes about 12 minutes a day.
 
 ---
 
-## What is not in the repo
+## What is in the repo, and what is not
 
-`tools/`, `voices/`, `bin/` and `.cache/` are git-ignored — they are downloaded toolchains
-(whisper.cpp + its models, Remotion, HyperFrames, static FFmpeg, Piper voice models) and the
-biggest single file is 700 MB, so GitHub rejects them. Re-fetch them on a new machine; see
-[`VIDEO-TOOLKIT.md`](VIDEO-TOOLKIT.md). Nothing the renderer needs is missing: `src/`,
-`stories/`, `characters/` and `out/` are all tracked.
+Everything the renderer actually calls is tracked, so a clone can make a reel:
+
+| | |
+|---|---|
+| `bin/ffmpeg`, `bin/ffprobe` | static builds, called by path from `src/lib/paths.js` (76 MB each, under the 100 MB cap) |
+| `vendor/lemo-opuscar/core/audio/` | the synth behind `src/audio/bed.py` — music bed, room tone, foley (MIT) |
+| `assets/fonts/` | Inter, used by the card and title renderers |
+| `package-lock.json` | `three` + `puppeteer-core` — `npm ci` |
+| `requirements.txt` | numpy / scipy / soundfile / soxr — `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt` |
+
+Not tracked, because GitHub rejects or the pipeline does not need them:
+
+- `tools/` — whisper.cpp (700 MB binary, 640 MB models), Remotion, HyperFrames. Editing
+  helpers, not render dependencies. See [`VIDEO-TOOLKIT.md`](VIDEO-TOOLKIT.md).
+- `voices/`, `bin/piper`, `bin/yt-dlp` — text-to-speech and downloading. Nobody speaks in
+  these reels, so none of it is on the render path.
+- `.cache/` — a second copy of the same static FFmpeg.
+- `out/**/*.mp4` — the reels live on YouTube and Instagram; keeping the encodes here would
+  be 400 MB of history. The notes, subtitles and manifests are tracked.
+- `node_modules/` — `npm ci` from the lockfile.
+
+The renderer also needs Chrome at `/usr/bin/google-chrome` (override with `CHROME_PATH`).
 
 ---
+
+
 
 ## 1. Create the account (≈10 min, once)
 

@@ -1,22 +1,37 @@
-# downloaded toolchains, models and binaries — re-fetch, never commit (all >50 MB)
-tools/
+# --- shipped ---------------------------------------------------------------
+# bin/ffmpeg and bin/ffprobe are tracked: src/lib/paths.js calls them by path on
+# every render. 76 MB each, under GitHub's 100 MB file cap.
+# assets/fonts, vendor/lemo-opuscar (audio synth) and package-lock.json are tracked too.
+
+# --- not shipped: not used by the reel pipeline -----------------------------
+# bin/piper + bin/yt-dlp: text-to-speech and downloads. Nobody speaks in these
+# reels (AGENTS.md), so neither binary is on the render path.
+bin/piper/
+bin/yt-dlp
+# voices/: Piper .onnx models, 63–78 MB each. Same reason.
 voices/
-bin/
+# tools/: whisper.cpp (700 MB binary + 640 MB models), Remotion, HyperFrames.
+# Editing helpers, not render dependencies — see VIDEO-TOOLKIT.md to re-fetch.
+tools/
+# .cache/: a second copy of the same static FFmpeg build.
 .cache/
 
-# local scratch
+# --- local scratch ---------------------------------------------------------
 .tmp/
 node_modules/
 .playwright-mcp/
-
-# working screenshots
 ig-*.png
 yt-*.png
 
-# rendered media — it lives on YouTube/Instagram, and it is 400 MB of git history.
-# Keep the notes and the subtitles; drop the frames and the encodes.
+# --- rendered media --------------------------------------------------------
+# It lives on YouTube/Instagram, and it is 400 MB of git history. The notes,
+# subtitles and manifests stay.
 out/**/*.mp4
 out/**/*.mp3
 out/**/*.jpg
 out/**/*.png
 out/**/*.html
+
+# python bytecode
+__pycache__/
+*.pyc

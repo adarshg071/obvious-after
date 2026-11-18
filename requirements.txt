@@ -1,0 +1,6 @@
+# audio only — src/audio/bed.py (music bed, room tone, foley)
+# install: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy==2.5.4
+scipy==1.18.1
+soundfile==0.14.0
+soxr==1.1.0

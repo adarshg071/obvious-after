@@ -4,7 +4,17 @@ import { P } from "../lib/paths.js";
 import { run } from "../lib/exec.js";
 import { renderReel } from "./capture.js";
 
-const PY = process.env.MUSIC_PY || path.join(process.env.HOME, "lemo-opuscar", ".venv", "bin", "python");
+// a repo .venv wins (see requirements.txt), then the older Lemo-Opuscar venv,
+// then whatever python3 is on PATH
+const PY = process.env.MUSIC_PY || await (async () => {
+  for (const p of [
+    path.join(P.root, ".venv", "bin", "python"),
+    path.join(process.env.HOME, "lemo-opuscar", ".venv", "bin", "python"),
+  ]) {
+    if (await fs.access(p).then(() => true, () => false)) return p;
+  }
+  return "python3";
+})();
 
 const log = (m) => console.log(`· ${m}`);
 

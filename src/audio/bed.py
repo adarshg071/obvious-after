@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Music bed + sound effects for caption-only reels.
 
-Synth comes from the Lemo-Opuscar audio core (MIT), installed at ~/lemo-opuscar:
-  sh plugin/skills/lemo-opuscar/scripts/setup.sh deps music
+Synth comes from the Lemo-Opuscar audio core (MIT), vendored at vendor/lemo-opuscar
+so a clone renders the same mix without the full 667 MB skill install:
 
   python3 bed.py --out bed.wav --duration 32.5 --mood warm --beats 0.35,3.9,8.2
 """
@@ -14,7 +14,10 @@ import wave
 
 import numpy as np
 
-LIB = os.environ.get("LEMO_OPUSCAR_HOME", os.path.expanduser("~/lemo-opuscar"))
+_HERE = os.path.dirname(os.path.abspath(__file__))
+LIB = os.environ.get(
+    "LEMO_OPUSCAR_HOME", os.path.join(_HERE, "..", "..", "vendor", "lemo-opuscar")
+)
 sys.path.insert(0, LIB)
 from core.audio import pluck as P  # noqa: E402
 from core.audio import sfx as S  # noqa: E402
