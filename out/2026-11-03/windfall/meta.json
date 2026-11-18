@@ -1,0 +1,57 @@
+{
+  "slug": "windfall",
+  "subject": "unexpected money",
+  "duration": 33.63814,
+  "createdAt": "2026-11-03T05:56:23.231Z",
+  "caption": "Nobody thinks they'd be the spender until the money is actually in the account.",
+  "hashtags": [
+    "#money",
+    "#personalfinance",
+    "#moneymindset",
+    "#psychology"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 8.07,
+      "text": "You get ten thousand dollars you didn't plan for. There are four reactions, and they're all about what you think you deserve."
+    },
+    {
+      "kind": "type",
+      "t0": 8.29,
+      "t1": 12.83,
+      "text": "It's already spent before it lands. That was the point of it."
+    },
+    {
+      "kind": "type",
+      "t0": 13.03,
+      "t1": 16.87,
+      "text": "It goes somewhere safe and you never think about it again."
+    },
+    {
+      "kind": "type",
+      "t0": 17.07,
+      "t1": 20.09,
+      "text": "You ask what it could become in five years."
+    },
+    {
+      "kind": "type",
+      "t0": 20.29,
+      "t1": 24.58,
+      "text": "You leave it sitting there, because deciding feels dangerous."
+    },
+    {
+      "kind": "kicker",
+      "t0": 24.78,
+      "t1": 29.98,
+      "text": "A windfall doesn't change your money habits. It just makes them louder."
+    },
+    {
+      "kind": "end",
+      "t0": 30.28,
+      "t1": 33.29,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

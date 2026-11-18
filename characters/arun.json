@@ -1,0 +1,29 @@
+{
+  "id": "arun",
+  "name": "Arun",
+  "role": "bus mechanic, 27",
+  "body": {
+    "skin": "#c98e63",
+    "shirt": "#c8892f",
+    "pants": "#2b3140",
+    "shoe": "#1b1d24",
+    "hair": "#101014",
+    "hairStyle": "short",
+    "height": 1.06,
+    "build": 1.04
+  },
+  "face": {
+    "eyes": "soft",
+    "default": "smile"
+  },
+  "voice": {
+    "model": "voices/en_US-amy-medium.onnx",
+    "lengthScale": 0.97,
+    "noiseScale": 0.62,
+    "noiseW": 0.8,
+    "pitch": -3.5
+  },
+  "props": ["phone"],
+  "flaw": "fills silence with jokes",
+  "bodyLanguage": "leans, hands in pockets, never sits until it matters"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "ways-to-say-it",
+  "subject": "how people say i love you",
+  "duration": 31.72,
+  "createdAt": "2026-11-06T03:40:25.655Z",
+  "caption": "Words are the rarest love language, not the only one. Which one do you give?",
+  "hashtags": [
+    "#love",
+    "#relationships",
+    "#dating",
+    "#psychology",
+    "#lovelanguage"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 6.35,
+      "text": "There are four ways people say I love you. Only one of them is words."
+    },
+    {
+      "kind": "type",
+      "t0": 6.57,
+      "t1": 11.4,
+      "text": "You mentioned it once, three weeks ago. It's in their bag."
+    },
+    {
+      "kind": "type",
+      "t0": 11.6,
+      "t1": 16.1,
+      "text": "A message at nine about nothing. That's the whole point."
+    },
+    {
+      "kind": "type",
+      "t0": 16.3,
+      "t1": 20.47,
+      "text": "You're tired, and the tea is already being made."
+    },
+    {
+      "kind": "type",
+      "t0": 20.67,
+      "t1": 23.52,
+      "text": "Out loud. Badly. Heart going."
+    },
+    {
+      "kind": "kicker",
+      "t0": 23.72,
+      "t1": 27.56,
+      "text": "The loud one isn't always the real one."
+    },
+    {
+      "kind": "end",
+      "t0": 27.86,
+      "t1": 31.37,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "crunchy-leaves",
+  "subject": "crunchy leaves",
+  "duration": 14.139999999999999,
+  "createdAt": "2026-11-10T02:51:11.626Z",
+  "caption": "Crunchy leaves are a personality.",
+  "hashtags": [
+    "#funny",
+    "#relatable",
+    "#leaves",
+    "#autumn",
+    "#storytime"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 2.52,
+      "text": "He found the leaf pile."
+    },
+    {
+      "kind": "line",
+      "t0": 2.7,
+      "t1": 3.6,
+      "text": "Crunchy."
+    },
+    {
+      "kind": "line",
+      "t0": 3.72,
+      "t1": 4.99,
+      "text": "You hear that?"
+    },
+    {
+      "kind": "line",
+      "t0": 5.11,
+      "t1": 6.01,
+      "text": "Crunchy."
+    },
+    {
+      "kind": "line",
+      "t0": 6.13,
+      "t1": 7.64,
+      "text": "Those were my friends."
+    },
+    {
+      "kind": "line",
+      "t0": 7.76,
+      "t1": 8.66,
+      "text": "Oh."
+    },
+    {
+      "kind": "kicker",
+      "t0": 8.78,
+      "t1": 11.28,
+      "text": "He walks on tiptoes now."
+    },
+    {
+      "kind": "end",
+      "t0": 11.5,
+      "t1": 13.86,
+      "text": "Send this to the leaf *criminal*."
+    }
+  ]
+}

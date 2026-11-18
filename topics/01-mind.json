@@ -1,0 +1,386 @@
+[
+  {
+    "id": "social-battery",
+    "subject": "social batteries",
+    "hook": {
+      "say": "There are four kinds of social battery. One of them never needs charging.",
+      "lines": [
+        "There are *four* kinds",
+        "of social battery."
+      ],
+      "icon": "battery"
+    },
+    "types": [
+      {
+        "name": "The Introvert",
+        "say": "Charges alone. Spends in public.",
+        "tag": "recharges alone",
+        "figure": "slump",
+        "icon": "moon",
+        "mood": "flat"
+      },
+      {
+        "name": "The Extrovert",
+        "say": "Charges in public. Spends alone.",
+        "tag": "recharges in a crowd",
+        "figure": "wave",
+        "icon": "sun",
+        "mood": "open"
+      },
+      {
+        "name": "The Ambivert",
+        "say": "Charges anywhere, depending on the week you've had.",
+        "tag": "depends on the week",
+        "figure": "stand",
+        "icon": "battery",
+        "mood": "smile"
+      },
+      {
+        "name": "The Omnivert",
+        "say": "Fully charged, then completely done, with no warning at all.",
+        "tag": "no warning",
+        "figure": "sit",
+        "icon": "phone",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "Most people are the middle two. You're not broken. You're just social in a different order.",
+      "lines": [
+        "Most people are",
+        "the *middle two*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Which battery are you? For most people it isn't one. It's a rotation. Save this and send it to the friend who never replies.",
+    "hashtags": [
+      "#introvert",
+      "#extrovert",
+      "#ambivert",
+      "#socialbattery",
+      "#psychology",
+      "#selfawareness"
+    ]
+  },
+  {
+    "id": "being-wrong",
+    "subject": "being wrong",
+    "hook": {
+      "say": "When you're wrong, there are four reactions. Only one of them keeps your friends.",
+      "lines": [
+        "When you're wrong,",
+        "there are *four* reactions."
+      ],
+      "icon": "burst"
+    },
+    "types": [
+      {
+        "name": "The Defender",
+        "say": "You argue the point until everyone gives up. Then you think about it all night.",
+        "tag": "wins the room, loses the night",
+        "figure": "stand",
+        "icon": "burst",
+        "mood": "frown"
+      },
+      {
+        "name": "The Learner",
+        "say": "You say oh, good point, and actually mean it. That's rarer than it sounds.",
+        "tag": "actually updates",
+        "figure": "wave",
+        "icon": "key",
+        "mood": "smile"
+      },
+      {
+        "name": "The Blamer",
+        "say": "It was the instructions. It was the timing. It was never you.",
+        "tag": "never you",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "flat"
+      },
+      {
+        "name": "The Avoider",
+        "say": "You go quiet, agree in the moment, and quietly keep doing it your way.",
+        "tag": "agree, then ignore",
+        "figure": "sit",
+        "icon": "phone",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "Being wrong is free information. Most people pay for it with a fight.",
+      "lines": [
+        "Being wrong is",
+        "*free information*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Which one are you when you're wrong? Most people are a defender at work and a learner with strangers.",
+    "hashtags": [
+      "#ego",
+      "#growth",
+      "#psychology",
+      "#selfawareness",
+      "#relationships"
+    ]
+  },
+  {
+    "id": "compliments",
+    "subject": "taking a compliment",
+    "hook": {
+      "say": "Someone compliments you. There are four ways people ruin it.",
+      "lines": [
+        "Someone *compliments* you.",
+        "Four ways to ruin it."
+      ],
+      "icon": "heart"
+    },
+    "types": [
+      {
+        "name": "The Deflector",
+        "say": "You immediately explain why it wasn't actually that good.",
+        "tag": "it wasn't that good",
+        "figure": "slump",
+        "icon": "heart",
+        "mood": "flat"
+      },
+      {
+        "name": "The Absorber",
+        "say": "You say thank you. That's it. Somehow that's the uncomfortable one.",
+        "tag": "just thank you",
+        "figure": "stand",
+        "icon": "sun",
+        "mood": "smile"
+      },
+      {
+        "name": "The Suspect",
+        "say": "You assume they want something. Nobody's ever just nice.",
+        "tag": "what do you want",
+        "figure": "sit",
+        "icon": "key",
+        "mood": "wavy"
+      },
+      {
+        "name": "The Joker",
+        "say": "You make a joke before anyone can take it seriously.",
+        "tag": "deflect with a joke",
+        "figure": "wave",
+        "icon": "burst",
+        "mood": "open"
+      }
+    ],
+    "kicker": {
+      "say": "A compliment is a gift. You're allowed to keep it.",
+      "lines": [
+        "A compliment is a *gift*.",
+        "You're allowed to keep it."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Which one do you do? Deflecting a compliment is just telling someone their taste is wrong.",
+    "hashtags": [
+      "#selfworth",
+      "#confidence",
+      "#psychology",
+      "#selfawareness"
+    ]
+  },
+  {
+    "id": "awkward-text",
+    "subject": "unanswered texts",
+    "hook": {
+      "say": "There are four types of person, and they all handle an awkward text differently.",
+      "lines": [
+        "Four types of person.",
+        "One *awkward* text."
+      ],
+      "icon": "phone"
+    },
+    "types": [
+      {
+        "name": "The Instant Replier",
+        "say": "You answer in nine seconds so nobody can be annoyed with you.",
+        "tag": "nine seconds",
+        "figure": "stand",
+        "icon": "phone",
+        "mood": "open"
+      },
+      {
+        "name": "The Overthinker",
+        "say": "You draft it eleven times and send it three days later.",
+        "tag": "drafts it eleven times",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "wavy"
+      },
+      {
+        "name": "The Ghoster",
+        "say": "You decide the conversation ended itself.",
+        "tag": "it ended itself",
+        "figure": "sit",
+        "icon": "moon",
+        "mood": "flat"
+      },
+      {
+        "name": "The Drafter",
+        "say": "You write the perfect reply. You never send it. It lives in your head forever.",
+        "tag": "never sends it",
+        "figure": "stand",
+        "icon": "key",
+        "mood": "smile"
+      }
+    ],
+    "kicker": {
+      "say": "An unanswered message is usually not rejection. It's just a phone face down.",
+      "lines": [
+        "Usually not rejection.",
+        "Just a *phone face down*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Be honest, which one are you? The overthinker and the drafter are the same person with different confidence levels.",
+    "hashtags": [
+      "#overthinking",
+      "#texting",
+      "#anxiety",
+      "#relatable",
+      "#psychology"
+    ]
+  },
+  {
+    "id": "being-alone",
+    "subject": "being alone",
+    "hook": {
+      "say": "Being alone feels different for four kinds of people. And only one of them is actually lonely.",
+      "lines": [
+        "Being alone.",
+        "*Four* different feelings."
+      ],
+      "icon": "moon"
+    },
+    "types": [
+      {
+        "name": "The Recharger",
+        "say": "Alone is where you become useful again.",
+        "tag": "alone equals fuel",
+        "figure": "sit",
+        "icon": "battery",
+        "mood": "smile"
+      },
+      {
+        "name": "The Filler",
+        "say": "You put something on, anything, so the room isn't quiet.",
+        "tag": "fills the silence",
+        "figure": "stand",
+        "icon": "phone",
+        "mood": "wavy"
+      },
+      {
+        "name": "The Avoider",
+        "say": "You keep busy so you never have to find out how you actually feel.",
+        "tag": "busy on purpose",
+        "figure": "wave",
+        "icon": "clock",
+        "mood": "open"
+      },
+      {
+        "name": "The Missing",
+        "say": "You're alone and fine, until you remember who used to be there.",
+        "tag": "fine until you remember",
+        "figure": "slump",
+        "icon": "moon",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "Loneliness isn't the absence of people. It's the absence of being known.",
+      "lines": [
+        "Not the absence of people.",
+        "The absence of *being known*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "You can be alone and not lonely, or surrounded and completely lonely. Which one is yours lately?",
+    "hashtags": [
+      "#loneliness",
+      "#solitude",
+      "#mentalhealth",
+      "#psychology",
+      "#selfawareness"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "silence-meaning",
+    "subject": "what silence means",
+    "hook": {
+      "say": "Silence means four completely different things. Read the room.",
+      "lines": [
+        "Silence means *four*",
+        "different things."
+      ],
+      "icon": "cloud"
+    },
+    "types": [
+      {
+        "name": "The Processing",
+        "say": "Give them a minute. They're building the sentence.",
+        "tag": "building the sentence",
+        "figure": "stand",
+        "icon": "clock",
+        "mood": "smile"
+      },
+      {
+        "name": "The Hurt",
+        "say": "They're not quiet. They're waiting to see if you notice.",
+        "tag": "waiting to be noticed",
+        "figure": "slump",
+        "icon": "heart",
+        "mood": "flat"
+      },
+      {
+        "name": "The Done",
+        "say": "They've decided this conversation isn't worth the energy anymore.",
+        "tag": "decided",
+        "figure": "sit",
+        "icon": "key",
+        "mood": "flat"
+      },
+      {
+        "name": "The Overloaded",
+        "say": "Too many people, too much noise. Nothing personal.",
+        "tag": "nothing personal",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "Most arguments are two people reading the same silence differently.",
+      "lines": [
+        "Most arguments are",
+        "one *silence*, two readings."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The worst part of silence is that you always fill it with your own fear first. Usually that's all it is.",
+    "hashtags": [
+      "#communication",
+      "#relationships",
+      "#psychology",
+      "#selfawareness"
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "the-draft",
+    "subject": "the draft",
+    "pillar": "love",
+    "format": "scene",
+    "style": "love",
+    "motion": "drift",
+    "mode": "music",
+    "music": "warm",
+    "hook": {
+      "say": "She typed hey. Deleted it.",
+      "lines": [
+        "She typed *hey*.",
+        "Deleted it."
+      ]
+    },
+    "cast": {
+      "her": {
+        "figure": "stand",
+        "mood": "open",
+        "accent": "#C2185B",
+        "x": 0.5
+      }
+    },
+    "scenes": [
+      {
+        "bg": "room",
+        "time": "night",
+        "cast": [
+          "her"
+        ],
+        "lines": [
+          {
+            "who": "her",
+            "say": "It's just a text.",
+            "mood": "flat"
+          },
+          {
+            "who": "her",
+            "say": "Hey.",
+            "mood": "open",
+            "prop": "phone",
+            "dur": 1.05
+          },
+          {
+            "who": "her",
+            "say": "No.",
+            "mood": "flat",
+            "dur": 0.9
+          },
+          {
+            "who": "her",
+            "say": "Heyyy.",
+            "mood": "smile",
+            "prop": "phone",
+            "dur": 1.05
+          },
+          {
+            "who": "her",
+            "say": "Too much.",
+            "mood": "wavy",
+            "dur": 1.0
+          },
+          {
+            "who": "her",
+            "say": "Hey.",
+            "mood": "flat",
+            "prop": "phone",
+            "sfx": "click",
+            "dur": 1.0
+          }
+        ]
+      },
+      {
+        "bg": "room",
+        "time": "night",
+        "cast": [
+          "her"
+        ],
+        "lines": [
+          {
+            "who": "her",
+            "say": "He's typing.",
+            "mood": "open",
+            "cam": "snap",
+            "dur": 1.2
+          },
+          {
+            "who": "her",
+            "say": "He said: I'm outside.",
+            "mood": "open",
+            "cam": "close",
+            "react": true,
+            "sfx": "gasp",
+            "dur": 2.0
+          }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "He was already outside.",
+      "lines": [
+        "He was",
+        "already *outside*."
+      ]
+    },
+    "end": {
+      "lines": [
+        "Send this to",
+        "the *overthinker*."
+      ],
+      "pill": "SEND IT"
+    },
+    "caption": "She rewrote hey six times.",
+    "hashtags": [
+      "#love",
+      "#relationships",
+      "#overthinking",
+      "#storytime",
+      "#relatable"
+    ]
+  },
+  {
+    "id": "the-coffee",
+    "subject": "the coffee",
+    "pillar": "funny",
+    "format": "scene",
+    "style": "comic",
+    "motion": "snap",
+    "mode": "music",
+    "music": "bright",
+    "silent": true,
+    "hook": {
+      "say": "",
+      "lines": [],
+      "prop": "coffee",
+      "dur": 0.9,
+      "propScale": 1.7
+    },
+    "cast": {
+      "guy": {
+        "figure": "stand",
+        "mood": "smile",
+        "accent": "#C9A227",
+        "x": 0.5
+      }
+    },
+    "scenes": [
+      {
+        "bg": "kitchen",
+        "time": "day",
+        "cast": [
+          "guy"
+        ],
+        "lines": [
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "open",
+            "prop": "coffee",
+            "propY": -150,
+            "dur": 1.0,
+            "propX": 0.5,
+            "propScale": 1.5
+          },
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "wavy",
+            "prop": "coffee",
+            "sfx": "gasp",
+            "cam": "shake",
+            "dur": 1.1,
+            "propY": -40,
+            "propX": 0.56,
+            "propScale": 1.5
+          },
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "wavy",
+            "figure": "wave",
+            "dur": 1.0
+          },
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "flat",
+            "prop": "coffee",
+            "propY": -150,
+            "dur": 1.0,
+            "propX": 0.5,
+            "propScale": 1.5
+          },
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "frown",
+            "prop": "coffee",
+            "sfx": "boing",
+            "cam": "snap",
+            "dur": 1.0,
+            "propY": -20,
+            "propX": 0.54,
+            "propScale": 1.5
+          },
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "flat",
+            "dur": 0.9
+          },
+          {
+            "who": "guy",
+            "say": "",
+            "mood": "flat",
+            "cam": "pull",
+            "dur": 1.4
+          }
+        ]
+      }
+    ],
+    "caption": "Every single morning.",
+    "hashtags": [
+      "#funny",
+      "#relatable",
+      "#coffee",
+      "#animation",
+      "#silentcomedy"
+    ]
+  }
+]

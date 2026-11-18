@@ -1,0 +1,339 @@
+{
+  "slug": "group-chat-meets",
+  "mode": "music",
+  "style": "comic",
+  "motion": "snap",
+  "format": "scene",
+  "cast": {
+    "organiser": {
+      "figure": "wave",
+      "mood": "open",
+      "accent": "#E4572E",
+      "x": 0.16
+    },
+    "ghost": {
+      "figure": "slump",
+      "mood": "flat",
+      "accent": "#3E6B8E",
+      "x": 0.36
+    },
+    "essayist": {
+      "figure": "stand",
+      "mood": "smile",
+      "accent": "#8E3B5E",
+      "x": 0.6
+    },
+    "gremlin": {
+      "figure": "sit",
+      "mood": "wavy",
+      "accent": "#C9A227",
+      "x": 0.84
+    },
+    "waiter": {
+      "figure": "stand",
+      "mood": "flat",
+      "accent": "#4F7A5A",
+      "x": 0.36
+    }
+  },
+  "scenes": [
+    {
+      "bg": "cafe",
+      "time": "day",
+      "cast": [
+        "organiser",
+        "ghost",
+        "essayist",
+        "gremlin"
+      ],
+      "lines": [
+        {
+          "who": "organiser",
+          "say": "He said he's coming.",
+          "mood": "open"
+        },
+        {
+          "who": "ghost",
+          "say": "He said that in March.",
+          "mood": "flat"
+        }
+      ]
+    },
+    {
+      "bg": "cafe",
+      "time": "day",
+      "cast": [
+        "organiser",
+        "essayist",
+        "gremlin",
+        "waiter"
+      ],
+      "lines": [
+        {
+          "who": "waiter",
+          "say": "Are you ready to order?",
+          "mood": "flat"
+        },
+        {
+          "who": "essayist",
+          "say": "In a sense. But what is ready.",
+          "mood": "open"
+        },
+        {
+          "who": "gremlin",
+          "say": "I'll have what he's having.",
+          "mood": "smile"
+        },
+        {
+          "who": "organiser",
+          "say": "He's not here.",
+          "mood": "flat"
+        }
+      ]
+    },
+    {
+      "bg": "street",
+      "time": "night",
+      "cast": [
+        "organiser",
+        "ghost",
+        "essayist",
+        "gremlin"
+      ],
+      "lines": [
+        {
+          "who": "ghost",
+          "say": "sorry, just saw this.",
+          "mood": "flat"
+        },
+        {
+          "who": "organiser",
+          "say": "IT IS 9PM.",
+          "mood": "frown"
+        },
+        {
+          "who": "essayist",
+          "say": "To be fair, time is a construct.",
+          "mood": "smile"
+        }
+      ]
+    }
+  ],
+  "accent": "#3D5AFE",
+  "duration": 41.349999999999994,
+  "theme": {
+    "paper": "#FFF8E1",
+    "ink": "#14110F",
+    "muted": "#6B6257"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 5.18,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "They finally",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "met ",
+            "hl": false
+          },
+          {
+            "t": "up",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "Guess how many.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "phone",
+      "scene": 0,
+      "text": "They finally met up. Four of them. Guess how many showed."
+    },
+    {
+      "kind": "line",
+      "t0": 5.3999999999999995,
+      "t1": 8,
+      "accent": "#3D5AFE",
+      "mood": "open",
+      "who": "organiser",
+      "scene": 0,
+      "text": "He said he's coming."
+    },
+    {
+      "kind": "line",
+      "t0": 8.22,
+      "t1": 11.07,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "who": "ghost",
+      "scene": 0,
+      "text": "He said that in March."
+    },
+    {
+      "kind": "line",
+      "t0": 11.290000000000001,
+      "t1": 14.14,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "who": "waiter",
+      "scene": 1,
+      "text": "Are you ready to order?"
+    },
+    {
+      "kind": "line",
+      "t0": 14.360000000000001,
+      "t1": 17.87,
+      "accent": "#3D5AFE",
+      "mood": "open",
+      "who": "essayist",
+      "scene": 1,
+      "text": "In a sense. But what is ready."
+    },
+    {
+      "kind": "line",
+      "t0": 18.09,
+      "t1": 20.94,
+      "accent": "#3D5AFE",
+      "mood": "smile",
+      "who": "gremlin",
+      "scene": 1,
+      "text": "I'll have what he's having."
+    },
+    {
+      "kind": "line",
+      "t0": 21.16,
+      "t1": 23.76,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "who": "organiser",
+      "scene": 1,
+      "text": "He's not here."
+    },
+    {
+      "kind": "line",
+      "t0": 23.98,
+      "t1": 26.580000000000002,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "who": "ghost",
+      "scene": 2,
+      "text": "sorry, just saw this."
+    },
+    {
+      "kind": "line",
+      "t0": 26.8,
+      "t1": 29.400000000000002,
+      "accent": "#3D5AFE",
+      "mood": "frown",
+      "who": "organiser",
+      "scene": 2,
+      "text": "IT IS 9PM."
+    },
+    {
+      "kind": "line",
+      "t0": 29.62,
+      "t1": 33.13,
+      "accent": "#3D5AFE",
+      "mood": "smile",
+      "who": "essayist",
+      "scene": 2,
+      "text": "To be fair, time is a construct."
+    },
+    {
+      "kind": "kicker",
+      "t0": 33.35,
+      "t1": 37.19,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "The meet-up ",
+            "hl": false
+          },
+          {
+            "t": "happened",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "He was there",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "in ",
+            "hl": false
+          },
+          {
+            "t": "spirit",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "The meet-up happened. He was there in spirit."
+    },
+    {
+      "kind": "end",
+      "t0": 37.489999999999995,
+      "t1": 40.99999999999999,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "The stuff nobody",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "teaches ",
+            "hl": false
+          },
+          {
+            "t": "you",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Follow for the stuff nobody teaches you.",
+      "sub": "@obviousafter",
+      "pill": "SEND THIS TO THEM"
+    }
+  ],
+  "caps": []
+}

@@ -1,0 +1,383 @@
+{
+  "id": "ep-005",
+  "title": "still open",
+  "seed": "ep-005",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "library",
+  "leadIn": 0.25,
+  "gap": 0.18,
+  "tail": 0.6,
+  "characters": [
+    "meera",
+    "dev"
+  ],
+  "scenes": [
+    {
+      "set": "library",
+      "tail": 0.6,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 34,
+        "targetX": -0.3,
+        "targetZ": 0.9,
+        "targetY": 1.95,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "tap"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "caption": {
+        "text": "8:56 P.M. · STILL *OPEN*",
+        "from": 0.35,
+        "dur": 2.2,
+        "size": 62,
+        "y": 0.15
+      },
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Four hours. One page.",
+          "dur": 1.7106
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.9,
+      "fx": [
+        "cloth"
+      ],
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 4,
+        "targetX": 0.85,
+        "targetZ": 0.4,
+        "targetY": 1.55,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "tap"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "It's a big page.",
+          "dur": 0.9253
+        },
+        {
+          "who": "meera",
+          "say": "It's a map.",
+          "react": "down",
+          "dur": 0.8495
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.8,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 10,
+        "targetX": 0.28,
+        "targetZ": 0.65,
+        "targetY": 1.5,
+        "fovAdd": -4
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "shelve"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "fx": [
+        "page"
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "It's a good map.",
+          "dur": 0.7643
+        },
+        {
+          "who": "meera",
+          "say": "Go home, Dev.",
+          "dur": 0.9656
+        },
+        {
+          "who": "dev",
+          "say": "Not till ten.",
+          "dur": 0.8365
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 1.8,
+      "fx": [
+        "car"
+      ],
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 32,
+        "targetX": -0.3,
+        "targetZ": 0.9,
+        "targetY": 1.95,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Why ten.",
+          "dur": 0.8146
+        },
+        {
+          "who": "dev",
+          "say": "Mum's not back till ten.",
+          "dur": 1.295
+        },
+        {
+          "who": "meera",
+          "say": "And?",
+          "dur": 0.5476
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.4,
+      "fx": [
+        "pipe"
+      ],
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 8,
+        "targetX": 0.85,
+        "targetZ": 0.4,
+        "targetY": 1.55,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "And it's too quiet at home.",
+          "look": "down",
+          "dur": 1.3229
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 1.1,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 12,
+        "targetX": 0.25,
+        "targetZ": 0.3,
+        "targetY": 1.35,
+        "fovAdd": -4
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.35,
+          "z": 0.2,
+          "pose": "sit",
+          "faceTo": 0.3,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "fx": [
+        "scrape"
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Then it's not quiet.",
+          "fx": "chair",
+          "dur": 1.0585
+        },
+        {
+          "who": "dev",
+          "say": "What are you doing.",
+          "dur": 0.8597
+        },
+        {
+          "who": "meera",
+          "say": "Reading.",
+          "dur": 0.5941
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 1.6,
+      "cam": {
+        "shot": "medium",
+        "move": "static",
+        "angle": 6,
+        "targetX": 0.25,
+        "targetZ": 0.3,
+        "targetY": 1.35,
+        "fovAdd": -2
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.35,
+          "z": 0.2,
+          "pose": "sit",
+          "faceTo": 0.3,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "fx": [
+        "bell"
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "We're closed.",
+          "dur": 0.9424
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 1.5,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 34,
+        "targetX": -0.3,
+        "targetZ": 0.9,
+        "targetY": 1.95,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "We're still open.",
+          "fx": "page",
+          "dur": 1.0236
+        }
+      ]
+    }
+  ]
+}

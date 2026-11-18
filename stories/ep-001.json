@@ -1,0 +1,59 @@
+{
+  "id": "ep-001",
+  "title": "eleven minutes",
+  "seed": "ep-001",
+  "fps": 30,
+  "music": "warm",
+  "leadIn": 0.4,
+  "gap": 0.3,
+  "tail": 0.7,
+  "characters": ["maya", "arun"],
+  "scenes": [
+    {
+      "set": "bus_stop",
+      "cam": { "shot": "wide", "move": "push", "angle": -7 },
+      "cast": [{ "id": "maya", "x": -0.35, "z": 0.02, "pose": "sit", "faceTo": 0.2 }],
+      "caption": {
+        "text": "THE 11:40 BUS STOPPED RUNNING *LAST YEAR*",
+        "from": 0.2,
+        "dur": 2.7
+      },
+      "hold": 2.2
+    },
+    {
+      "set": "bus_stop",
+      "cam": { "shot": "two", "move": "static", "angle": -10 },
+      "cast": [
+        { "id": "maya", "x": -0.5, "z": 0.02, "pose": "sit", "faceTo": 0.25 },
+        { "id": "arun", "x": 0.85, "z": -0.5, "pose": "idle", "faceTo": -0.32 }
+      ],
+      "lines": [
+        { "who": "arun", "say": "Bus is late." },
+        { "who": "maya", "say": "It's always late." },
+        { "who": "arun", "say": "Then why are you here every night?" }
+      ]
+    },
+    {
+      "set": "bus_stop",
+      "cam": { "shot": "close", "move": "push", "angle": 12, "targetX": -0.5 },
+      "cast": [{ "id": "maya", "x": -0.5, "z": 0.02, "pose": "sit", "faceTo": 0.15 }],
+      "lines": [{ "who": "maya", "say": "He used to take the 11:40." }],
+      "tail": 0.5
+    },
+    {
+      "set": "bus_stop",
+      "cam": { "shot": "wide", "move": "pull", "angle": 0 },
+      "cast": [
+        { "id": "maya", "x": -0.5, "z": 0.02, "pose": "sit", "faceTo": 0.2 },
+        { "id": "arun", "x": 0.62, "z": 0.02, "pose": "sit", "faceTo": -0.25 }
+      ],
+      "lines": [{ "who": "arun", "say": "She took the 11:40 too.", "pose": "talk" }],
+      "hold": 1.0
+    }
+  ],
+  "endCard": {
+    "text": "SOME PEOPLE ARE JUST *WAITING*",
+    "size": 104,
+    "dur": 2.1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "yt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "node src/cli.js make",
+    "pfp": "node src/cli.js pfp",
+    "daily": "node src/cli.js daily",
+    "list": "node src/cli.js list",
+    "captions": "bash scripts/captions.sh",
+    "clean": "node src/cli.js clean",
+    "sheet": "node src/cli.js sheet",
+    "tools": "bash scripts/check-tools.sh",
+    "remotion:card": "cd tools/remotion && npx remotion render src/index.ts TitleCard out/title.mp4",
+    "hf:card": "cd tools/hyperframes/card && npx hyperframes@0.9.2 render",
+    "banner": "node src/cli.js banner",
+    "world": "node src/world3d/index.js",
+    "world:stills": "node src/world3d/stills.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "three": "^0.170.0"
+  }
+}

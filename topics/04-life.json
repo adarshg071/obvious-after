@@ -1,0 +1,382 @@
+[
+  {
+    "id": "how-are-you",
+    "subject": "how are you",
+    "hook": {
+      "say": "There are four answers to how are you, and only one of them is an answer.",
+      "lines": [
+        "\"How are you?\"",
+        "Four *answers*."
+      ],
+      "icon": "phone"
+    },
+    "types": [
+      {
+        "name": "The Honest",
+        "say": "You tell them. Sometimes that's a lot for a Tuesday.",
+        "tag": "a lot for a Tuesday",
+        "figure": "stand",
+        "icon": "heart",
+        "mood": "smile"
+      },
+      {
+        "name": "The Autopilot",
+        "say": "Good, you? You don't even hear the question anymore.",
+        "tag": "good, you?",
+        "figure": "wave",
+        "icon": "phone",
+        "mood": "open"
+      },
+      {
+        "name": "The Deflect",
+        "say": "You turn it into a joke and change the subject.",
+        "tag": "joke, then change it",
+        "figure": "sit",
+        "icon": "burst",
+        "mood": "wavy"
+      },
+      {
+        "name": "The Overshare",
+        "say": "They asked. They're getting everything.",
+        "tag": "they asked",
+        "figure": "wave",
+        "icon": "cloud",
+        "mood": "open"
+      }
+    ],
+    "kicker": {
+      "say": "Ask twice. The second answer is the real one.",
+      "lines": [
+        "Ask *twice*.",
+        "The second answer is real."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The person who says fine the fastest is usually the one who isn't.",
+    "hashtags": [
+      "#mentalhealth",
+      "#conversations",
+      "#empathy",
+      "#psychology"
+    ]
+  },
+  {
+    "id": "show-love",
+    "subject": "how people show love",
+    "hook": {
+      "say": "People show love in four languages. Most of us are only fluent in one.",
+      "lines": [
+        "Four ways",
+        "people *show love*."
+      ],
+      "icon": "heart"
+    },
+    "types": [
+      {
+        "name": "Words",
+        "say": "You say it. Specifically, and often.",
+        "tag": "says it out loud",
+        "figure": "wave",
+        "icon": "heart",
+        "mood": "open"
+      },
+      {
+        "name": "Time",
+        "say": "You give the hours. Undivided, phone down.",
+        "tag": "phone down",
+        "figure": "sit",
+        "icon": "clock",
+        "mood": "smile"
+      },
+      {
+        "name": "Acts",
+        "say": "You fix the thing they didn't ask you to fix.",
+        "tag": "fixes the thing",
+        "figure": "stand",
+        "icon": "key",
+        "mood": "smile"
+      },
+      {
+        "name": "Gifts",
+        "say": "You noticed something six weeks ago. It's here now.",
+        "tag": "noticed six weeks ago",
+        "figure": "stand",
+        "icon": "coin",
+        "mood": "open"
+      }
+    ],
+    "kicker": {
+      "say": "You're probably loving them the way you want to be loved. Try their way.",
+      "lines": [
+        "You love them",
+        "the way *you* want to be loved."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Most people who feel unloved are being loved in a language they don't speak.",
+    "hashtags": [
+      "#relationships",
+      "#lovelanguages",
+      "#psychology",
+      "#dating"
+    ]
+  },
+  {
+    "id": "others-success",
+    "subject": "when others succeed",
+    "hook": {
+      "say": "When someone you know succeeds, four things happen inside you.",
+      "lines": [
+        "Someone you know",
+        "just *won*."
+      ],
+      "icon": "chart"
+    },
+    "types": [
+      {
+        "name": "The Celebrate",
+        "say": "Genuinely happy for them. That's rarer than it should be.",
+        "tag": "genuinely happy",
+        "figure": "wave",
+        "icon": "heart",
+        "mood": "open"
+      },
+      {
+        "name": "The Compare",
+        "say": "You're happy for them and suddenly behind.",
+        "tag": "happy and behind",
+        "figure": "slump",
+        "icon": "chart",
+        "mood": "flat"
+      },
+      {
+        "name": "The Learn",
+        "say": "You ask how they did it. You take notes.",
+        "tag": "asks how",
+        "figure": "stand",
+        "icon": "key",
+        "mood": "smile"
+      },
+      {
+        "name": "The Withdraw",
+        "say": "You go quiet for a while and call it being busy.",
+        "tag": "quiet for a while",
+        "figure": "sit",
+        "icon": "moon",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "Comparison isn't a character flaw. It's data about what you actually want.",
+      "lines": [
+        "Comparison is data",
+        "about what you *want*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "If their win makes you feel behind, it's showing you the thing you're not admitting you want.",
+    "hashtags": [
+      "#comparison",
+      "#envy",
+      "#selfawareness",
+      "#growth"
+    ]
+  },
+  {
+    "id": "argue",
+    "subject": "how people argue",
+    "hook": {
+      "say": "Every argument has four possible moves. Most people only know two.",
+      "lines": [
+        "Four moves",
+        "in an *argument*."
+      ],
+      "icon": "burst"
+    },
+    "types": [
+      {
+        "name": "Escalate",
+        "say": "Volume goes up, accuracy goes down.",
+        "tag": "volume up",
+        "figure": "stand",
+        "icon": "burst",
+        "mood": "frown"
+      },
+      {
+        "name": "Withdraw",
+        "say": "You leave the room and take the point with you.",
+        "tag": "leaves the room",
+        "figure": "slump",
+        "icon": "moon",
+        "mood": "flat"
+      },
+      {
+        "name": "Repair",
+        "say": "You say the thing that lowers the temperature, even when you're right.",
+        "tag": "lowers the temperature",
+        "figure": "wave",
+        "icon": "heart",
+        "mood": "smile"
+      },
+      {
+        "name": "Logic",
+        "say": "You win the facts and lose the person.",
+        "tag": "wins facts, loses person",
+        "figure": "sit",
+        "icon": "chart",
+        "mood": "open"
+      }
+    ],
+    "kicker": {
+      "say": "You can be right or you can be close. Sometimes both. But never right first.",
+      "lines": [
+        "Right, or close.",
+        "Never *right first*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The most damaging move in an argument isn't shouting. It's leaving.",
+    "hashtags": [
+      "#relationships",
+      "#conflict",
+      "#communication",
+      "#psychology"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "cancelled-plans",
+    "subject": "cancelled plans",
+    "hook": {
+      "say": "Your plans got cancelled. Your reaction tells you how tired you actually are.",
+      "lines": [
+        "Plans cancelled.",
+        "Your *reaction*."
+      ],
+      "icon": "phone"
+    },
+    "types": [
+      {
+        "name": "Relief",
+        "say": "Instant peace. You were going to cancel anyway.",
+        "tag": "instant peace",
+        "figure": "sit",
+        "icon": "sun",
+        "mood": "smile"
+      },
+      {
+        "name": "Annoyed",
+        "say": "You'd already done your hair.",
+        "tag": "already did your hair",
+        "figure": "stand",
+        "icon": "burst",
+        "mood": "frown"
+      },
+      {
+        "name": "Neutral",
+        "say": "Genuinely fine either way. Rare, and slightly suspicious.",
+        "tag": "fine either way",
+        "figure": "stand",
+        "icon": "battery",
+        "mood": "smile"
+      },
+      {
+        "name": "Panic",
+        "say": "Empty evening, no plan, no buffer. Now it's just you.",
+        "tag": "now it's just you",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "If every cancellation feels like relief, the problem isn't the plan.",
+      "lines": [
+        "If every cancellation",
+        "feels like *relief*..."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Relief is information. It usually means you've been saying yes past your limit.",
+    "hashtags": [
+      "#introvert",
+      "#boundaries",
+      "#burnout",
+      "#psychology"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "free-evening",
+    "subject": "one free evening",
+    "hook": {
+      "say": "You have one free evening. Four people, four very different nights.",
+      "lines": [
+        "One free",
+        "*evening*."
+      ],
+      "icon": "moon"
+    },
+    "types": [
+      {
+        "name": "The Planner",
+        "say": "You fill it. Something useful, something social, something.",
+        "tag": "fills it",
+        "figure": "stand",
+        "icon": "clock",
+        "mood": "open"
+      },
+      {
+        "name": "The Scroll",
+        "say": "You sit down for a minute. It is now midnight.",
+        "tag": "it is now midnight",
+        "figure": "sit",
+        "icon": "phone",
+        "mood": "flat"
+      },
+      {
+        "name": "The People",
+        "say": "You text three people and see who's free.",
+        "tag": "texts three people",
+        "figure": "wave",
+        "icon": "heart",
+        "mood": "open"
+      },
+      {
+        "name": "The Nothing",
+        "say": "You do absolutely nothing and feel weirdly great about it.",
+        "tag": "nothing, on purpose",
+        "figure": "sit",
+        "icon": "moon",
+        "mood": "smile"
+      }
+    ],
+    "kicker": {
+      "say": "An evening without output isn't wasted. It's how you stay a person.",
+      "lines": [
+        "An evening without output",
+        "isn't *wasted*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "You don't need to earn your rest. You need to stop treating it like a reward.",
+    "hashtags": [
+      "#rest",
+      "#hustleculture",
+      "#balance",
+      "#selfcare"
+    ]
+  }
+]

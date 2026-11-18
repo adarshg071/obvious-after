@@ -1,0 +1,58 @@
+{
+  "slug": "being-wrong",
+  "subject": "being wrong",
+  "duration": 37.30698399999999,
+  "createdAt": "2026-11-02T10:02:24.199Z",
+  "caption": "Which one are you when you're wrong? Most people are a defender at work and a learner with strangers.",
+  "hashtags": [
+    "#ego",
+    "#growth",
+    "#psychology",
+    "#selfawareness",
+    "#relationships"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 5.91,
+      "text": "When you're wrong, there are four reactions. Only one of them keeps your friends."
+    },
+    {
+      "kind": "type",
+      "t0": 6.13,
+      "t1": 11.77,
+      "text": "You argue the point until everyone gives up. Then you think about it all night."
+    },
+    {
+      "kind": "type",
+      "t0": 11.97,
+      "t1": 17.72,
+      "text": "You say oh, good point, and actually mean it. That's rarer than it sounds."
+    },
+    {
+      "kind": "type",
+      "t0": 17.92,
+      "t1": 22.7,
+      "text": "It was the instructions. It was the timing. It was never you."
+    },
+    {
+      "kind": "type",
+      "t0": 22.9,
+      "t1": 27.85,
+      "text": "You go quiet, agree in the moment, and quietly keep doing it your way."
+    },
+    {
+      "kind": "kicker",
+      "t0": 28.05,
+      "t1": 33.59,
+      "text": "Being wrong is free information. Most people pay for it with a fight."
+    },
+    {
+      "kind": "end",
+      "t0": 33.89,
+      "t1": 36.96,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

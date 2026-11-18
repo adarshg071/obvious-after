@@ -1,0 +1,314 @@
+{
+  "slug": "the-alarm",
+  "mode": "music",
+  "style": "comic",
+  "motion": "snap",
+  "format": "scene",
+  "cast": {
+    "her": {
+      "figure": "stand",
+      "mood": "flat",
+      "accent": "#C2185B",
+      "x": 0.34,
+      "scale": 1
+    },
+    "him": {
+      "figure": "stand",
+      "mood": "smile",
+      "accent": "#C9A227",
+      "x": 0.66,
+      "scale": 1
+    }
+  },
+  "scenes": [
+    {
+      "bg": "room",
+      "time": "night",
+      "cast": [
+        "her",
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "her",
+          "say": "Why 47 alarms?",
+          "mood": "flat"
+        },
+        {
+          "who": "him",
+          "say": "I need all of them.",
+          "mood": "smile"
+        }
+      ],
+      "pos": null
+    },
+    {
+      "bg": "room",
+      "time": "day",
+      "cast": [
+        "her",
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "him",
+          "say": "I'm up.",
+          "mood": "open",
+          "sfx": "alarm",
+          "cam": "snap"
+        },
+        {
+          "who": "her",
+          "say": "You're not.",
+          "mood": "flat",
+          "react": true
+        },
+        {
+          "who": "him",
+          "say": "I am.",
+          "mood": "smile",
+          "sfx": "alarm"
+        },
+        {
+          "who": "her",
+          "say": "They stopped an hour ago.",
+          "mood": "frown",
+          "react": true,
+          "cam": "close"
+        }
+      ],
+      "pos": null
+    },
+    {
+      "bg": "kitchen",
+      "time": "day",
+      "cast": [
+        "her",
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "him",
+          "say": "I was resting my eyes.",
+          "mood": "wavy",
+          "sfx": "boing",
+          "cam": "close"
+        },
+        {
+          "who": "her",
+          "say": "It's 11am.",
+          "mood": "flat"
+        }
+      ],
+      "pos": null
+    }
+  ],
+  "accent": "#3D5AFE",
+  "duration": 19.06,
+  "theme": {
+    "paper": "#FFF8E1",
+    "ink": "#14110F",
+    "muted": "#6B6257"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 2.22,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "He has",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "47 ",
+            "hl": false
+          },
+          {
+            "t": "alarms",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "scene": 0,
+      "text": "He has 47 alarms.",
+      "prop": "clock"
+    },
+    {
+      "kind": "line",
+      "t0": 2.4000000000000004,
+      "t1": 3.6700000000000004,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "Why 47 alarms?",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 3.7900000000000005,
+      "t1": 5.540000000000001,
+      "accent": "#3D5AFE",
+      "mood": "smile",
+      "figure": null,
+      "who": "him",
+      "scene": 0,
+      "text": "I need all of them.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 5.660000000000001,
+      "t1": 6.690000000000001,
+      "accent": "#3D5AFE",
+      "mood": "open",
+      "figure": null,
+      "who": "him",
+      "scene": 1,
+      "text": "I'm up.",
+      "prop": null,
+      "cam": "snap"
+    },
+    {
+      "kind": "line",
+      "t0": 6.810000000000001,
+      "t1": 7.840000000000002,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "You're not.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 7.960000000000002,
+      "t1": 8.990000000000002,
+      "accent": "#3D5AFE",
+      "mood": "smile",
+      "figure": null,
+      "who": "him",
+      "scene": 1,
+      "text": "I am.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 9.110000000000001,
+      "t1": 10.860000000000001,
+      "accent": "#3D5AFE",
+      "mood": "frown",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "They stopped an hour ago.",
+      "prop": null,
+      "cam": "close"
+    },
+    {
+      "kind": "line",
+      "t0": 10.98,
+      "t1": 12.73,
+      "accent": "#3D5AFE",
+      "mood": "wavy",
+      "figure": null,
+      "who": "him",
+      "scene": 2,
+      "text": "I was resting my eyes.",
+      "prop": null,
+      "cam": "close"
+    },
+    {
+      "kind": "line",
+      "t0": 12.85,
+      "t1": 13.879999999999999,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 2,
+      "text": "It's 11am.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "kicker",
+      "t0": 13.999999999999998,
+      "t1": 16.2,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "He was",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "asleep",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "He was asleep."
+    },
+    {
+      "kind": "end",
+      "t0": 16.419999999999998,
+      "t1": 18.779999999999998,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "Send this to",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "the ",
+            "hl": false
+          },
+          {
+            "t": "47-alarm",
+            "hl": true
+          },
+          {
+            "t": " person.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Send this to the *47-alarm* person.",
+      "sub": "@obviousafter",
+      "pill": "SEND IT"
+    }
+  ],
+  "caps": []
+}

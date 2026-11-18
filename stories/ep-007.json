@@ -1,0 +1,323 @@
+{
+  "id": "ep-007",
+  "title": "nine years",
+  "seed": "ep-007",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "street",
+  "leadIn": 0.25,
+  "gap": 0.18,
+  "tail": 0.3,
+  "characters": [
+    "meera",
+    "dev"
+  ],
+  "scenes": [
+    {
+      "set": "street",
+      "tail": 0.35,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 90,
+        "targetX": 0.1,
+        "targetZ": 0.1,
+        "targetY": 1.55,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "caption": {
+        "text": "9:47 P.M. \u00b7 NINE *YEARS*",
+        "from": 0.35,
+        "dur": 2.2,
+        "size": 62,
+        "y": 0.15
+      },
+      "lines": [
+        {
+          "who": "meera",
+          "say": "You still owe me a book.",
+          "dur": 1.8
+        },
+        {
+          "who": "dev",
+          "say": "I've never taken a book out.",
+          "dur": 2
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "tail": 0.3,
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 90,
+        "targetX": 0.35,
+        "targetZ": -0.5,
+        "targetY": 1.9,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Pigeons. Nine years ago.",
+          "dur": 2.1
+        },
+        {
+          "who": "dev",
+          "say": "Pigeons.",
+          "dur": 0.9,
+          "laugh": true
+        },
+        {
+          "who": "meera",
+          "say": "You renewed it twice.",
+          "dur": 1.7
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "tail": 0.3,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 96,
+        "targetX": 0.1,
+        "targetZ": 0.1,
+        "targetY": 1.5,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "That's not me.",
+          "dur": 1.3
+        },
+        {
+          "who": "meera",
+          "say": "Read the card.",
+          "dur": 1.3,
+          "fx": "page"
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "tail": 0.3,
+      "cam": {
+        "shot": "close",
+        "move": "handheld",
+        "angle": 90,
+        "targetX": 0.35,
+        "targetZ": -0.5,
+        "targetY": 1.9,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "It's my name.",
+          "dur": 1.4,
+          "look": "down"
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "tail": 0.3,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 84,
+        "targetX": 0.1,
+        "targetZ": 0.1,
+        "targetY": 1.5,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Where's the book.",
+          "dur": 1.3
+        },
+        {
+          "who": "meera",
+          "say": "Here.",
+          "dur": 0.9
+        },
+        {
+          "who": "dev",
+          "say": "You read it every night.",
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "tail": 0.4,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 90,
+        "targetX": -0.1,
+        "targetZ": 0.75,
+        "targetY": 1.95,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "It's on your card.",
+          "dur": 1.6
+        },
+        {
+          "who": "dev",
+          "say": "Then close it.",
+          "dur": 1.3
+        },
+        {
+          "who": "meera",
+          "say": "No.",
+          "dur": 0.8,
+          "react": "still"
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "tail": 1,
+      "fx": [
+        "stamp"
+      ],
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 90,
+        "targetX": 0.1,
+        "targetZ": 0.1,
+        "targetY": 1.55,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.0,
+          "z": 0.75,
+          "pose": "walk",
+          "faceTo": 1.5
+        },
+        {
+          "id": "dev",
+          "x": 0.5,
+          "z": -0.5,
+          "pose": "walk",
+          "faceTo": 1.62
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Nine years. Still out.",
+          "dur": 2.3
+        }
+      ]
+    }
+  ]
+}

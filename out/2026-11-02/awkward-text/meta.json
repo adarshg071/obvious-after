@@ -1,0 +1,58 @@
+{
+  "slug": "awkward-text",
+  "subject": "unanswered texts",
+  "duration": 33.46399100000001,
+  "createdAt": "2026-11-02T10:07:36.130Z",
+  "caption": "Be honest, which one are you? The overthinker and the drafter are the same person with different confidence levels.",
+  "hashtags": [
+    "#overthinking",
+    "#texting",
+    "#anxiety",
+    "#relatable",
+    "#psychology"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 5.52,
+      "text": "There are four types of person, and they all handle an awkward text differently."
+    },
+    {
+      "kind": "type",
+      "t0": 5.74,
+      "t1": 10.1,
+      "text": "You answer in nine seconds so nobody can be annoyed with you."
+    },
+    {
+      "kind": "type",
+      "t0": 10.3,
+      "t1": 13.99,
+      "text": "You draft it eleven times and send it three days later."
+    },
+    {
+      "kind": "type",
+      "t0": 14.19,
+      "t1": 17.33,
+      "text": "You decide the conversation ended itself."
+    },
+    {
+      "kind": "type",
+      "t0": 17.53,
+      "t1": 23.49,
+      "text": "You write the perfect reply. You never send it. It lives in your head forever."
+    },
+    {
+      "kind": "kicker",
+      "t0": 23.69,
+      "t1": 29.62,
+      "text": "An unanswered message is usually not rejection. It's just a phone face down."
+    },
+    {
+      "kind": "end",
+      "t0": 29.92,
+      "t1": 33.11,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

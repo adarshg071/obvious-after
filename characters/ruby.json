@@ -1,0 +1,29 @@
+{
+  "id": "ruby",
+  "name": "Ruby",
+  "role": "twenty-two, one hoodie, every Tuesday",
+  "body": {
+    "skin": "#e0b492",
+    "shirt": "#8b4a3c",
+    "pants": "#2a2f3a",
+    "shoe": "#1c1e24",
+    "hair": "#4a2b22",
+    "hairStyle": "beanie",
+    "height": 0.99,
+    "build": 0.96
+  },
+  "face": {
+    "eyes": "tired",
+    "default": "flat"
+  },
+  "voice": {
+    "model": "voices/en_US-libritts_r-medium.onnx",
+    "speaker": 41,
+    "lengthScale": 1.0,
+    "noiseScale": 0.66,
+    "noiseW": 0.8,
+    "sentenceSilence": 0.06
+  },
+  "flaw": "keeps things far too long and calls it sorting",
+  "bodyLanguage": "one hand in a pocket, leans on whatever is nearest, looks at the floor when she means it"
+}

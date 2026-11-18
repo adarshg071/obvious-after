@@ -1,0 +1,52 @@
+[
+  {
+    "id": "crunchy-leaves",
+    "subject": "crunchy leaves",
+    "pillar": "funny",
+    "format": "scene",
+    "style": "comic",
+    "motion": "snap",
+    "mode": "music",
+    "music": "bright",
+    "hook": {
+      "say": "He found the leaf pile.",
+      "lines": ["He found", "the *leaf* pile."],
+      "prop": "leaf"
+    },
+    "cast": {
+      "guy": { "figure": "stand", "mood": "smile", "accent": "#C9A227", "x": 0.26 },
+      "giant": { "figure": "slump", "mood": "flat", "accent": "#3E6B8E", "x": 0.74, "scale": 1.4 }
+    },
+    "scenes": [
+      {
+        "bg": "park",
+        "time": "day",
+        "cast": ["guy"],
+        "lines": [
+          { "who": "guy", "say": "Crunchy.", "mood": "smile", "prop": "leaf", "sfx": "crunch" }
+        ]
+      },
+      {
+        "bg": "park",
+        "time": "day",
+        "cast": ["guy", "giant"],
+        "lines": [
+          { "who": "giant", "say": "You hear that?", "mood": "flat", "cam": "push" },
+          { "who": "guy", "say": "Crunchy.", "mood": "smile", "prop": "leaf", "sfx": "crunch" },
+          { "who": "giant", "say": "Those were my friends.", "mood": "frown", "duck": true, "cam": "push" },
+          { "who": "guy", "say": "Oh.", "mood": "wavy" }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "He walks on tiptoes now.",
+      "lines": ["He walks on", "*tiptoes* now."]
+    },
+    "end": {
+      "lines": ["Send this to", "the leaf *criminal*."],
+      "pill": "SEND IT"
+    },
+    "caption": "Crunchy leaves are a personality.",
+    "hashtags": ["#funny", "#relatable", "#leaves", "#autumn", "#storytime"]
+  }
+]

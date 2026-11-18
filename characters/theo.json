@@ -1,0 +1,29 @@
+{
+  "id": "theo",
+  "name": "Theo",
+  "role": "twenty-four, does his washing at three in the morning",
+  "body": {
+    "skin": "#c99872",
+    "shirt": "#59616e",
+    "pants": "#272b33",
+    "shoe": "#191b21",
+    "hair": "#2b2119",
+    "hairStyle": "short",
+    "height": 1.03,
+    "build": 1.02
+  },
+  "face": {
+    "eyes": "soft",
+    "default": "flat"
+  },
+  "voice": {
+    "model": "voices/en_US-libritts_r-medium.onnx",
+    "speaker": 50,
+    "lengthScale": 0.97,
+    "noiseScale": 0.62,
+    "noiseW": 0.78,
+    "sentenceSilence": 0.06
+  },
+  "flaw": "folds everything, including things that aren't his",
+  "bodyLanguage": "hands always busy, never quite looks up, stands square to the table"
+}

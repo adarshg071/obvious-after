@@ -1,0 +1,58 @@
+{
+  "slug": "being-alone",
+  "subject": "being alone",
+  "duration": 33.692288999999995,
+  "createdAt": "2026-11-03T05:53:10.623Z",
+  "caption": "You can be alone and not lonely, or surrounded and completely lonely. Which one is yours lately?",
+  "hashtags": [
+    "#loneliness",
+    "#solitude",
+    "#mentalhealth",
+    "#psychology",
+    "#selfawareness"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 7.74,
+      "text": "Being alone feels different for four kinds of people. And only one of them is actually lonely."
+    },
+    {
+      "kind": "type",
+      "t0": 7.96,
+      "t1": 10.94,
+      "text": "Alone is where you become useful again."
+    },
+    {
+      "kind": "type",
+      "t0": 11.14,
+      "t1": 15.22,
+      "text": "You put something on, anything, so the room isn't quiet."
+    },
+    {
+      "kind": "type",
+      "t0": 15.42,
+      "t1": 19.96,
+      "text": "You keep busy so you never have to find out how you actually feel."
+    },
+    {
+      "kind": "type",
+      "t0": 20.16,
+      "t1": 24.59,
+      "text": "You're alone and fine, until you remember who used to be there."
+    },
+    {
+      "kind": "kicker",
+      "t0": 24.79,
+      "t1": 29.94,
+      "text": "Loneliness isn't the absence of people. It's the absence of being known."
+    },
+    {
+      "kind": "end",
+      "t0": 30.24,
+      "t1": 33.34,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "id": "ep-003",
+  "title": "four minutes",
+  "seed": "ep-003",
+  "fps": 30,
+  "music": "tense",
+  "ambience": "diner",
+  "leadIn": 0.5,
+  "gap": 0.2,
+  "tail": 0.4,
+  "characters": [
+    "kaia",
+    "noor"
+  ],
+  "scenes": [
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "two",
+        "move": "push",
+        "angle": 65,
+        "targetZ": -0.55,
+        "targetY": 1.45,
+        "targetX": -0.6
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": -1.35,
+          "z": -0.35,
+          "pose": "idle",
+          "faceTo": 2.05
+        }
+      ],
+      "caption": {
+        "text": "2:14 A.M. · FOURTEEN NIGHTS IN A ROW",
+        "from": 0.3,
+        "dur": 3.0,
+        "size": 62,
+        "y": 0.16
+      },
+      "lines": [
+        {
+          "who": "noor",
+          "say": "—and the pie's gone, so don't ask.",
+          "react": "look"
+        },
+        {
+          "who": "kaia",
+          "say": "You're going to look at the door.",
+          "fx": "chime"
+        }
+      ],
+      "hold": 0.5
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 96,
+        "targetX": -1.35,
+        "targetZ": -0.35,
+        "targetY": 2.06,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": -1.35,
+          "z": -0.35,
+          "pose": "idle",
+          "faceTo": 2.05
+        }
+      ],
+      "fx": [
+        "door"
+      ],
+      "lines": [
+        {
+          "who": "noor",
+          "say": "How did you know that.",
+          "react": "still"
+        }
+      ]
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "medium",
+        "move": "push",
+        "angle": 84,
+        "targetZ": -1.55,
+        "targetY": 2.08,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": -1.35,
+          "z": -0.35,
+          "pose": "idle",
+          "faceTo": 2.05
+        }
+      ],
+      "lines": [
+        {
+          "who": "kaia",
+          "say": "Four minutes. Anyone I look at.",
+          "react": "look"
+        },
+        {
+          "who": "kaia",
+          "say": "Ask me something.",
+          "react": "look"
+        },
+        {
+          "who": "noor",
+          "say": "What number am I writing?"
+        }
+      ]
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 72,
+        "targetZ": -0.55,
+        "targetY": 1.45,
+        "fovAdd": 6,
+        "targetX": -0.35
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": -1.35,
+          "z": -0.35,
+          "pose": "idle",
+          "faceTo": 2.05
+        }
+      ],
+      "lines": [
+        {
+          "who": "kaia",
+          "say": "Seven. Then you cross it out and write four.",
+          "fx": "scratch",
+          "react": "look"
+        },
+        {
+          "who": "noor",
+          "say": "How—",
+          "react": "down"
+        },
+        {
+          "who": "kaia",
+          "say": "—I've seen this one fourteen times."
+        }
+      ],
+      "tail": 0.5
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "medium",
+        "move": "static",
+        "angle": 55,
+        "targetZ": -1.55,
+        "targetY": 1.62,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": -1.35,
+          "z": -0.35,
+          "pose": "idle",
+          "faceTo": 2.05
+        }
+      ],
+      "lines": [
+        {
+          "who": "noor",
+          "say": "So what am I doing in four minutes."
+        },
+        {
+          "who": "kaia",
+          "say": "You sit down.",
+          "react": "look"
+        }
+      ],
+      "fx": [
+        "scrape"
+      ]
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 68,
+        "targetZ": -0.55,
+        "targetY": 1.42,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": 0.05,
+          "z": 0.55,
+          "pose": "sit",
+          "faceTo": 2.59
+        }
+      ],
+      "lines": [
+        {
+          "who": "kaia",
+          "say": "You ask why I never drink the coffee."
+        },
+        {
+          "who": "noor",
+          "say": "Why do you never drink the coffee.",
+          "react": "lean"
+        },
+        {
+          "who": "kaia",
+          "say": "Because I'm not here for the coffee.",
+          "react": "down"
+        },
+        {
+          "who": "noor",
+          "say": "Then what are you here for?"
+        },
+        {
+          "who": "kaia",
+          "say": "You get up. You always get up.",
+          "react": "down"
+        }
+      ]
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "ots",
+        "move": "static",
+        "angle": 150,
+        "targetZ": 0.3,
+        "targetY": 1.62,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": 0.05,
+          "z": 0.55,
+          "pose": "sit",
+          "faceTo": 2.59
+        }
+      ],
+      "lines": [
+        {
+          "who": "noor",
+          "say": "What if I stay.",
+          "react": "lean"
+        },
+        {
+          "who": "kaia",
+          "say": "I can't see that.",
+          "react": "still"
+        },
+        {
+          "who": "noor",
+          "say": "Why not."
+        },
+        {
+          "who": "kaia",
+          "say": "You're not—",
+          "react": "down"
+        }
+      ]
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 120,
+        "targetX": 0.05,
+        "targetZ": 0.55,
+        "targetY": 2.1,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.25
+        },
+        {
+          "id": "noor",
+          "x": 0.05,
+          "z": 0.55,
+          "pose": "sit",
+          "faceTo": 2.59
+        }
+      ],
+      "lines": [
+        {
+          "who": "noor",
+          "say": "Say something.",
+          "react": "down"
+        },
+        {
+          "who": "kaia",
+          "say": "I don't know what to say."
+        },
+        {
+          "who": "noor",
+          "say": "You just checked."
+        },
+        {
+          "who": "kaia",
+          "say": "No—",
+          "react": "still"
+        },
+        {
+          "who": "noor",
+          "say": "You checked."
+        }
+      ],
+      "tail": 0.6
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "medium",
+        "move": "static",
+        "angle": 120,
+        "targetX": 0.05,
+        "targetZ": 0.55,
+        "targetY": 2.06,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.32
+        },
+        {
+          "id": "noor",
+          "x": 0.05,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 2.5
+        }
+      ],
+      "fx": [
+        "scrape"
+      ],
+      "lines": [
+        {
+          "who": "noor",
+          "say": "What do you see.",
+          "react": "down"
+        },
+        {
+          "who": "kaia",
+          "say": "You leaving."
+        },
+        {
+          "who": "noor",
+          "say": "Then I'm leaving."
+        }
+      ],
+      "tail": 0.5
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 56,
+        "targetZ": -1.55,
+        "targetY": 2.08,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.32
+        }
+      ],
+      "fx": [
+        "door"
+      ],
+      "lines": [
+        {
+          "who": "noor",
+          "say": "Fourteen nights. You never said one thing you didn't already know."
+        }
+      ],
+      "hold": 1.0,
+      "tail": 1.2
+    },
+    {
+      "set": "diner",
+      "cam": {
+        "shot": "wide",
+        "move": "pull",
+        "angle": 40,
+        "targetZ": -0.9,
+        "targetY": 1.35,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "kaia",
+          "x": 0,
+          "z": -1.55,
+          "pose": "sit",
+          "faceTo": 0.32
+        }
+      ],
+      "hold": 1.4,
+      "tail": 1.0
+    }
+  ]
+}

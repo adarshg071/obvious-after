@@ -1,0 +1,61 @@
+{
+  "id": "ep-002",
+  "title": "leave it on",
+  "seed": "ep-002",
+  "fps": 30,
+  "music": "warm",
+  "leadIn": 0.4,
+  "gap": 0.32,
+  "tail": 0.6,
+  "characters": ["arun"],
+  "scenes": [
+    {
+      "set": "bedroom",
+      "cam": { "shot": "medium", "move": "push", "angle": 34, "fovAdd": 5, "targetY": 1.2 },
+      "seat": 0.22,
+      "cast": [{ "id": "arun", "x": 0.8, "z": -0.5, "pose": "call", "faceTo": -0.1 }],
+      "caption": {
+        "text": "3:12 A.M. · HE ANSWERS ON THE *FIRST* RING",
+        "from": 0.25,
+        "dur": 2.8,
+        "size": 74,
+        "y": 0.19
+      },
+      "hold": 0.9
+    },
+    {
+      "set": "bedroom",
+      "cam": { "shot": "medium", "move": "static", "angle": 28, "fovAdd": 3, "targetY": 1.24 },
+      "seat": 0.22,
+      "cast": [{ "id": "arun", "x": 0.8, "z": -0.5, "pose": "call", "faceTo": -0.08 }],
+      "lines": [
+        { "who": "arun", "say": "Mom. It's three in the morning." },
+        { "who": "arun", "say": "I ate. Actual food." },
+        { "who": "arun", "say": "No. I'm in bed." }
+      ]
+    },
+    {
+      "set": "bedroom",
+      "cam": { "shot": "close", "move": "push", "angle": 20, "targetX": 0.8, "targetY": 1.42 },
+      "seat": 0.22,
+      "cast": [{ "id": "arun", "x": 0.8, "z": -0.5, "pose": "call", "faceTo": 0.08 }],
+      "lines": [
+        { "who": "arun", "say": "Okay. Okay, I'll sleep." },
+        { "who": "arun", "say": "Leave it on.", "pose": "talk" }
+      ],
+      "tail": 0.4
+    },
+    {
+      "set": "bedroom",
+      "cam": { "shot": "wide", "move": "pull", "angle": 30, "fovAdd": 4, "targetY": 1.26 },
+      "seat": 0.22,
+      "cast": [{ "id": "arun", "x": 0.8, "z": -0.5, "pose": "call", "faceTo": 0 }],
+      "hold": 0.6
+    }
+  ],
+  "endCard": {
+    "text": "HE'S *27*",
+    "size": 132,
+    "dur": 1.8
+  }
+}

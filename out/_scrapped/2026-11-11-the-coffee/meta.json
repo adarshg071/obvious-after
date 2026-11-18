@@ -1,0 +1,64 @@
+{
+  "slug": "the-coffee",
+  "subject": "the coffee",
+  "duration": 9.72,
+  "createdAt": "2026-11-11T04:04:58.836Z",
+  "caption": "Every single morning.",
+  "hashtags": [
+    "#funny",
+    "#relatable",
+    "#coffee",
+    "#animation",
+    "#silentcomedy"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 1.02,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 1.2,
+      "t1": 2.2,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 2.32,
+      "t1": 3.42,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 3.54,
+      "t1": 4.54,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 4.66,
+      "t1": 5.66,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 5.78,
+      "t1": 6.78,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 6.9,
+      "t1": 7.8,
+      "text": ""
+    },
+    {
+      "kind": "line",
+      "t0": 7.92,
+      "t1": 9.32,
+      "text": ""
+    }
+  ]
+}

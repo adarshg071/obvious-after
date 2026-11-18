@@ -1,0 +1,24 @@
+{
+  "id": "dev",
+  "name": "Dev",
+  "role": "sixteen, hood down, nowhere to be until ten",
+  "body": {
+    "skin": "#b9835c",
+    "shirt": "#3c4a63",
+    "pants": "#262a33",
+    "shoe": "#1a1c22",
+    "hair": "#191411",
+    "hairStyle": "crop",
+    "height": 0.93,
+    "build": 0.9
+  },
+  "face": {
+    "eyes": "open",
+    "default": "flat"
+  },
+  "props": [
+    "notebook"
+  ],
+  "flaw": "would rather be somewhere than say he wants to be there",
+  "bodyLanguage": "chin on hand, looks at the page when he means it"
+}

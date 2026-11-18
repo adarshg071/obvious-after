@@ -1,0 +1,391 @@
+{
+  "id": "ep-006",
+  "title": "forty pages",
+  "seed": "ep-006",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "library",
+  "leadIn": 0.25,
+  "gap": 0.18,
+  "tail": 0.6,
+  "characters": [
+    "meera",
+    "dev"
+  ],
+  "scenes": [
+    {
+      "set": "library",
+      "tail": 0.35,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 34,
+        "targetX": -0.3,
+        "targetZ": 0.9,
+        "targetY": 1.95,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "caption": {
+        "text": "9:12 P.M. · FORTY *PAGES*",
+        "from": 0.35,
+        "dur": 2.2,
+        "size": 62,
+        "y": 0.15
+      },
+      "lines": [
+        {
+          "who": "meera",
+          "say": "That's eight pounds."
+        },
+        {
+          "who": "dev",
+          "say": "I've only got two pounds."
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.45,
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 4,
+        "targetX": 0.85,
+        "targetZ": 0.4,
+        "targetY": 1.55,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Forty pages, twenty p a page."
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.55,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 10,
+        "targetX": 0.28,
+        "targetZ": 0.65,
+        "targetY": 1.5,
+        "fovAdd": -4
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "tap"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Then print ten."
+        },
+        {
+          "who": "dev",
+          "say": "Ten isn't a form."
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.7,
+      "fx": [
+        "pipe"
+      ],
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 8,
+        "targetX": 0.85,
+        "targetZ": 0.4,
+        "targetY": 1.55,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "It's for a care home. Nights.",
+          "look": "down"
+        },
+        {
+          "who": "meera",
+          "say": "You're fifteen."
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.5,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 32,
+        "targetX": -0.3,
+        "targetZ": 0.9,
+        "targetY": 1.95,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Sixteen in March."
+        },
+        {
+          "who": "meera",
+          "say": "And nights pay more.",
+          "react": "down"
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.5,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 12,
+        "targetX": 0.25,
+        "targetZ": 0.45,
+        "targetY": 1.45,
+        "fovAdd": -4
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "tap"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Then take the nights."
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.6,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 4,
+        "targetX": 0.85,
+        "targetZ": 0.4,
+        "targetY": 1.55,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "You're not telling me no."
+        },
+        {
+          "who": "meera",
+          "say": "I'm not your mother.",
+          "react": "away"
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 0.75,
+      "fx": [
+        "stamp"
+      ],
+      "cam": {
+        "shot": "medium",
+        "move": "static",
+        "angle": 6,
+        "targetX": 0.25,
+        "targetZ": 0.45,
+        "targetY": 1.4,
+        "fovAdd": -2
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Who pays the eight pounds."
+        },
+        {
+          "who": "meera",
+          "say": "You do. Friday."
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "tail": 1.1,
+      "fx": [
+        "page"
+      ],
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 34,
+        "targetX": -0.3,
+        "targetZ": 0.9,
+        "targetY": 1.95,
+        "fovAdd": -3
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.3,
+          "z": 0.9,
+          "pose": "idle",
+          "faceTo": 0.25,
+          "business": "read"
+        },
+        {
+          "id": "dev",
+          "x": 0.85,
+          "z": 0.4,
+          "pose": "sit",
+          "faceTo": -0.18,
+          "business": "read"
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Forty pages."
+        }
+      ]
+    }
+  ]
+}

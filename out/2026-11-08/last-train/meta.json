@@ -1,0 +1,94 @@
+{
+  "slug": "last-train",
+  "subject": "the last train",
+  "duration": 41.94,
+  "createdAt": "2026-11-07T03:16:57.016Z",
+  "caption": "He ran. That's the whole story.",
+  "hashtags": [
+    "#love",
+    "#relationships",
+    "#couples",
+    "#dating",
+    "#storytime"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 3.86,
+      "text": "He was late. That wasn't the problem."
+    },
+    {
+      "kind": "line",
+      "t0": 4.08,
+      "t1": 6.68,
+      "text": "You're late."
+    },
+    {
+      "kind": "line",
+      "t0": 6.9,
+      "t1": 9.5,
+      "text": "The train was late."
+    },
+    {
+      "kind": "line",
+      "t0": 9.72,
+      "t1": 12.57,
+      "text": "The train is always late."
+    },
+    {
+      "kind": "line",
+      "t0": 12.79,
+      "t1": 15.39,
+      "text": "You're always later."
+    },
+    {
+      "kind": "line",
+      "t0": 15.61,
+      "t1": 18.21,
+      "text": "Just tell her."
+    },
+    {
+      "kind": "line",
+      "t0": 18.43,
+      "t1": 21.03,
+      "text": "Tell her what."
+    },
+    {
+      "kind": "line",
+      "t0": 21.25,
+      "t1": 23.85,
+      "text": "That you ran."
+    },
+    {
+      "kind": "line",
+      "t0": 24.07,
+      "t1": 26.92,
+      "text": "I ran. The whole way."
+    },
+    {
+      "kind": "line",
+      "t0": 27.14,
+      "t1": 30.32,
+      "text": "You could have just said that."
+    },
+    {
+      "kind": "line",
+      "t0": 30.54,
+      "t1": 33.72,
+      "text": "I know. I'm saying it now."
+    },
+    {
+      "kind": "kicker",
+      "t0": 33.94,
+      "t1": 37.78,
+      "text": "Some people run late. Some people just run."
+    },
+    {
+      "kind": "end",
+      "t0": 38.08,
+      "t1": 41.59,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

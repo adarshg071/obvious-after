@@ -1,0 +1,329 @@
+{
+  "id": "ep-009",
+  "title": "the clearing",
+  "seed": "ep-009",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "jungle",
+  "leadIn": 0.25,
+  "gap": 0.18,
+  "tail": 0.3,
+  "characters": [
+    "meera",
+    "dev"
+  ],
+  "scenes": [
+    {
+      "set": "jungle",
+      "tail": 0.35,
+      "fx": [
+        "fire"
+      ],
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.02,
+        "targetZ": -0.2,
+        "targetY": 1.3,
+        "fovAdd": 14
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "caption": {
+        "text": "10:40 P.M. \u00b7 THE CLEARING",
+        "from": 0.35,
+        "dur": 2.2,
+        "size": 62,
+        "y": 0.22
+      },
+      "lines": [
+        {
+          "who": "dev",
+          "say": "You followed me.",
+          "dur": 1.5
+        },
+        {
+          "who": "meera",
+          "say": "You took the long way.",
+          "dur": 1.6
+        },
+        {
+          "who": "dev",
+          "say": "That's not an answer.",
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "set": "jungle",
+      "tail": 0.3,
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 0,
+        "targetX": 0.78,
+        "targetZ": -1.15,
+        "targetY": 1.72,
+        "fovAdd": 18
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Nobody comes out here.",
+          "dur": 1.8
+        }
+      ]
+    },
+    {
+      "set": "jungle",
+      "tail": 0.3,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.02,
+        "targetZ": -0.2,
+        "targetY": 1.3,
+        "fovAdd": 14
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "You did.",
+          "dur": 0.9
+        },
+        {
+          "who": "dev",
+          "say": "Your spot.",
+          "dur": 1.2,
+          "laugh": true,
+          "fx": "scrape"
+        }
+      ]
+    },
+    {
+      "set": "jungle",
+      "tail": 0.3,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.78,
+        "targetZ": -1.15,
+        "targetY": 1.72,
+        "fovAdd": 18
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "business": "tap",
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Twelve years.",
+          "dur": 1.4
+        },
+        {
+          "who": "meera",
+          "say": "Of sitting here after the late shift.",
+          "dur": 2.6
+        }
+      ]
+    },
+    {
+      "set": "jungle",
+      "tail": 0.3,
+      "fx": [
+        "fire"
+      ],
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.02,
+        "targetZ": -0.2,
+        "targetY": 1.3,
+        "fovAdd": 14
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Alone.",
+          "dur": 1.0
+        },
+        {
+          "who": "meera",
+          "say": "With the fire.",
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "set": "jungle",
+      "tail": 0.4,
+      "cam": {
+        "shot": "close",
+        "move": "handheld",
+        "angle": 0,
+        "targetX": 0.78,
+        "targetZ": -1.15,
+        "targetY": 1.72,
+        "fovAdd": 18
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "So it's not my clearing.",
+          "dur": 1.9
+        }
+      ]
+    },
+    {
+      "set": "jungle",
+      "tail": 1,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.02,
+        "targetZ": -0.2,
+        "targetY": 1.3,
+        "fovAdd": 14
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": 0.2,
+          "props": []
+        },
+        {
+          "id": "dev",
+          "x": 0.78,
+          "z": -1.15,
+          "pose": "sit",
+          "faceTo": -0.22,
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "It's nobody's.",
+          "dur": 1.3
+        },
+        {
+          "who": "meera",
+          "say": "This is my clearing. You can share it.",
+          "dur": 3.6
+        }
+      ]
+    }
+  ]
+}

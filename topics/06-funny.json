@@ -1,0 +1,120 @@
+[
+  {
+    "id": "group-chat",
+    "subject": "group chat people",
+    "pillar": "funny",
+    "style": "comic",
+    "motion": "snap",
+    "mode": "music",
+    "music": "bright",
+    "hook": {
+      "say": "Every group chat has these four people. You are at least two.",
+      "lines": [
+        "Four people in",
+        "every *group chat*."
+      ],
+      "icon": "phone"
+    },
+    "types": [
+      {
+        "name": "The Ghost",
+        "say": "Reads every message. Replies in the next financial year.",
+        "tag": "seen at 9:41",
+        "figure": "slump",
+        "icon": "moon",
+        "mood": "flat"
+      },
+      {
+        "name": "The Essayist",
+        "say": "Six paragraphs. About a sandwich.",
+        "tag": "wait for it",
+        "figure": "stand",
+        "icon": "burst",
+        "mood": "open"
+      },
+      {
+        "name": "The Sticker Gremlin",
+        "say": "No words. Just a frog holding a knife.",
+        "tag": "no context",
+        "figure": "wave",
+        "icon": "burst",
+        "mood": "smile"
+      },
+      {
+        "name": "The Organiser",
+        "say": "Trying to arrange a meet-up since March.",
+        "tag": "one day",
+        "figure": "sit",
+        "icon": "clock",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "You are at least two of these. You know which.",
+      "lines": [
+        "You are at least",
+        "two of these."
+      ]
+    },
+    "end": {
+      "pill": "SEND THIS TO THEM"
+    },
+    "caption": "Send this to the friend who is all four. They know who they are.",
+    "hashtags": ["#groupchat", "#funny", "#relatable", "#friends", "#texts"]
+  },
+  {
+    "id": "wedding-people",
+    "subject": "people at every wedding",
+    "pillar": "funny",
+    "format": "list",
+    "style": "comic",
+    "motion": "rise",
+    "music": "bright",
+    "hook": {
+      "say": "Every wedding has these four people. One of them is you.",
+      "lines": ["Every wedding", "has these", "*four* people."],
+      "icon": "burst"
+    },
+    "types": [
+      {
+        "name": "The Crier",
+        "say": "Started at the vows. Hasn't stopped. It's the speeches now.",
+        "tag": "someone get her water",
+        "figure": "slump",
+        "icon": "heart",
+        "mood": "wavy"
+      },
+      {
+        "name": "The DJ",
+        "say": "Has one playlist. It is 2011. Nobody has told him.",
+        "tag": "one more song",
+        "figure": "wave",
+        "icon": "burst",
+        "mood": "smile"
+      },
+      {
+        "name": "The Aunt With The Phone",
+        "say": "Filming vertically. The whole ceremony. From the front row.",
+        "tag": "it's for facebook",
+        "figure": "stand",
+        "icon": "phone",
+        "mood": "open"
+      },
+      {
+        "name": "The Uninvited",
+        "say": "Arrived. Brought a plus one. Brought a chair.",
+        "tag": "table for three",
+        "figure": "sit",
+        "icon": "coin",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "You are one of them. You cried. Admit it.",
+      "lines": ["You are one of them.", "You *cried*.", "Admit it."]
+    },
+    "end": { "pill": "SEND THIS TO THEM" },
+    "caption": "There is always one aunt filming the whole thing vertically.",
+    "hashtags": ["#wedding", "#funny", "#relatable", "#weddingseason", "#family"]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "kaia",
+  "name": "Kaia",
+  "role": "nineteen, sits in booth four every night",
+  "body": {
+    "skin": "#b9825c",
+    "shirt": "#3c4a5e",
+    "pants": "#20242e",
+    "shoe": "#14161c",
+    "hair": "#0e0d10",
+    "hairStyle": "short",
+    "height": 1.02,
+    "build": 0.98
+  },
+  "face": {
+    "eyes": "tired",
+    "default": "flat"
+  },
+  "voice": {
+    "model": "voices/en_US-libritts_r-medium.onnx",
+    "speaker": 31,
+    "lengthScale": 0.96,
+    "noiseScale": 0.66,
+    "noiseW": 0.8,
+    "sentenceSilence": 0.06
+  },
+  "flaw": "rehearses every conversation, so he can never have one",
+  "bodyLanguage": "still, both hands around a cup he never lifts, looks down when he is checking"
+}

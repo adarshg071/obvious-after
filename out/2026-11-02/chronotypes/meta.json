@@ -1,0 +1,58 @@
+{
+  "slug": "chronotypes",
+  "subject": "sleep chronotypes",
+  "duration": 34.060001,
+  "createdAt": "2026-11-02T09:55:57.047Z",
+  "caption": "Being a wolf in a nine to five world isn't a character flaw. It's a scheduling problem.",
+  "hashtags": [
+    "#sleep",
+    "#chronotype",
+    "#productivity",
+    "#health",
+    "#energy"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 5.34,
+      "text": "You're not lazy and you're not undisciplined. You're one of four chronotypes."
+    },
+    {
+      "kind": "type",
+      "t0": 5.56,
+      "t1": 10.94,
+      "text": "Up before the alarm, sharp by nine, completely useless by eight at night."
+    },
+    {
+      "kind": "type",
+      "t0": 11.14,
+      "t1": 15.67,
+      "text": "You follow the sun. Most of the working world is built for you."
+    },
+    {
+      "kind": "type",
+      "t0": 15.87,
+      "t1": 19.65,
+      "text": "Your best thinking happens when everyone else is asleep."
+    },
+    {
+      "kind": "type",
+      "t0": 19.85,
+      "t1": 24.98,
+      "text": "Light sleeper, alert mind, tired all day. The unlucky one."
+    },
+    {
+      "kind": "kicker",
+      "t0": 25.18,
+      "t1": 30.27,
+      "text": "Stop fighting your clock. Put the hard thing at your peak, not your morning."
+    },
+    {
+      "kind": "end",
+      "t0": 30.57,
+      "t1": 33.71,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

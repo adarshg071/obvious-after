@@ -1,0 +1,22 @@
+# downloaded toolchains, models and binaries — re-fetch, never commit (all >50 MB)
+tools/
+voices/
+bin/
+.cache/
+
+# local scratch
+.tmp/
+node_modules/
+.playwright-mcp/
+
+# working screenshots
+ig-*.png
+yt-*.png
+
+# rendered media — it lives on YouTube/Instagram, and it is 400 MB of git history.
+# Keep the notes and the subtitles; drop the frames and the encodes.
+out/**/*.mp4
+out/**/*.mp3
+out/**/*.jpg
+out/**/*.png
+out/**/*.html

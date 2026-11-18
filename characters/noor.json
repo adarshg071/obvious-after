@@ -1,0 +1,29 @@
+{
+  "id": "noor",
+  "name": "Noor",
+  "role": "twenty-one, night waitress, eleven shifts a fortnight",
+  "body": {
+    "skin": "#8a5b3e",
+    "shirt": "#4e5f52",
+    "pants": "#23262e",
+    "shoe": "#1b1c22",
+    "hair": "#151217",
+    "hairStyle": "bob",
+    "height": 1.0,
+    "build": 1.0
+  },
+  "face": {
+    "eyes": "tired",
+    "default": "flat"
+  },
+  "voice": {
+    "model": "voices/en_US-libritts_r-medium.onnx",
+    "speaker": 35,
+    "lengthScale": 1.02,
+    "noiseScale": 0.55,
+    "noiseW": 0.72,
+    "sentenceSilence": 0.06
+  },
+  "flaw": "gives people one more chance than they deserve",
+  "bodyLanguage": "weight on one hip, wipes the same clean table, stops moving when she is angry"
+}

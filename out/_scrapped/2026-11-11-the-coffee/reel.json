@@ -1,0 +1,238 @@
+{
+  "slug": "the-coffee",
+  "mode": "music",
+  "style": "comic",
+  "motion": "snap",
+  "format": "scene",
+  "cast": {
+    "guy": {
+      "figure": "stand",
+      "mood": "smile",
+      "accent": "#C9A227",
+      "x": 0.5,
+      "scale": 1
+    }
+  },
+  "scenes": [
+    {
+      "bg": "kitchen",
+      "time": "day",
+      "cast": [
+        "guy"
+      ],
+      "lines": [
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "open",
+          "prop": "coffee",
+          "propY": -150,
+          "dur": 1,
+          "propX": 0.5,
+          "propScale": 1.5
+        },
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "wavy",
+          "prop": "coffee",
+          "sfx": "gasp",
+          "cam": "shake",
+          "dur": 1.1,
+          "propY": -40,
+          "propX": 0.56,
+          "propScale": 1.5
+        },
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "wavy",
+          "figure": "wave",
+          "dur": 1
+        },
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "flat",
+          "prop": "coffee",
+          "propY": -150,
+          "dur": 1,
+          "propX": 0.5,
+          "propScale": 1.5
+        },
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "frown",
+          "prop": "coffee",
+          "sfx": "boing",
+          "cam": "snap",
+          "dur": 1,
+          "propY": -20,
+          "propX": 0.54,
+          "propScale": 1.5
+        },
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "flat",
+          "dur": 0.9
+        },
+        {
+          "who": "guy",
+          "say": "",
+          "mood": "flat",
+          "cam": "pull",
+          "dur": 1.4
+        }
+      ],
+      "pos": null
+    }
+  ],
+  "accent": "#00B36B",
+  "duration": 9.72,
+  "theme": {
+    "paper": "#FFF8E1",
+    "ink": "#14110F",
+    "muted": "#6B6257"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 1.02,
+      "accent": "#00B36B",
+      "lines": [],
+      "icon": "burst",
+      "scene": 0,
+      "text": "",
+      "prop": "coffee",
+      "propScale": 1.7
+    },
+    {
+      "kind": "line",
+      "t0": 1.2,
+      "t1": 2.2,
+      "accent": "#00B36B",
+      "mood": "open",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": "coffee",
+      "propTurn": 0,
+      "propY": -150,
+      "propX": 0.5,
+      "propScale": 1.5,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 2.3200000000000003,
+      "t1": 3.4200000000000004,
+      "accent": "#00B36B",
+      "mood": "wavy",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": "coffee",
+      "propTurn": 0,
+      "propY": -40,
+      "propX": 0.56,
+      "propScale": 1.5,
+      "cam": "shake"
+    },
+    {
+      "kind": "line",
+      "t0": 3.5400000000000005,
+      "t1": 4.540000000000001,
+      "accent": "#00B36B",
+      "mood": "wavy",
+      "figure": "wave",
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "propX": null,
+      "propScale": 1,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 4.660000000000001,
+      "t1": 5.660000000000001,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": "coffee",
+      "propTurn": 0,
+      "propY": -150,
+      "propX": 0.5,
+      "propScale": 1.5,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 5.780000000000001,
+      "t1": 6.780000000000001,
+      "accent": "#00B36B",
+      "mood": "frown",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": "coffee",
+      "propTurn": 0,
+      "propY": -20,
+      "propX": 0.54,
+      "propScale": 1.5,
+      "cam": "snap"
+    },
+    {
+      "kind": "line",
+      "t0": 6.900000000000001,
+      "t1": 7.800000000000002,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "propX": null,
+      "propScale": 1,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 7.920000000000002,
+      "t1": 9.320000000000002,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "propX": null,
+      "propScale": 1,
+      "cam": "pull"
+    }
+  ],
+  "caps": []
+}

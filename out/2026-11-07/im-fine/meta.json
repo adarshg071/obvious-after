@@ -1,0 +1,82 @@
+{
+  "slug": "im-fine",
+  "subject": "the fine conversation",
+  "duration": 37.61999999999999,
+  "createdAt": "2026-11-07T02:40:52.869Z",
+  "caption": "\"I'm fine\" is rarely the whole sentence. Ask twice.",
+  "hashtags": [
+    "#love",
+    "#relationships",
+    "#couples",
+    "#dating",
+    "#communication"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 4.19,
+      "text": "Two people. One word doing all the work."
+    },
+    {
+      "kind": "line",
+      "t0": 4.41,
+      "t1": 7.01,
+      "text": "You're quiet."
+    },
+    {
+      "kind": "line",
+      "t0": 7.23,
+      "t1": 9.83,
+      "text": "I'm fine."
+    },
+    {
+      "kind": "line",
+      "t0": 10.05,
+      "t1": 13.89,
+      "text": "You're doing the thing where you say fine."
+    },
+    {
+      "kind": "line",
+      "t0": 14.11,
+      "t1": 16.96,
+      "text": "I'm not doing a thing."
+    },
+    {
+      "kind": "line",
+      "t0": 17.18,
+      "t1": 20.03,
+      "text": "You're doing it right now."
+    },
+    {
+      "kind": "line",
+      "t0": 20.25,
+      "t1": 22.85,
+      "text": "Okay. I'm not fine."
+    },
+    {
+      "kind": "line",
+      "t0": 23.07,
+      "t1": 25.67,
+      "text": "Okay. Tell me."
+    },
+    {
+      "kind": "line",
+      "t0": 25.89,
+      "t1": 29.4,
+      "text": "I just wanted you to ask twice."
+    },
+    {
+      "kind": "kicker",
+      "t0": 29.62,
+      "t1": 33.46,
+      "text": "Sometimes fine is a question, not an answer."
+    },
+    {
+      "kind": "end",
+      "t0": 33.76,
+      "t1": 37.27,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

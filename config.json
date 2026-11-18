@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "handle": "obviousafter",
+    "tagline": "the stuff nobody teaches you",
+    "showHandle": false
+  },
+  "voice": {
+    "model": "voices/en_US-amy-medium.onnx",
+    "lengthScale": 1.05,
+    "noiseScale": 0.55,
+    "noiseW": 0.7
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 20,
+    "preset": "veryfast"
+  },
+  "timing": {
+    "hookLeadIn": 0.12,
+    "beatGap": 0.12,
+    "endGap": 0.3,
+    "tail": 0.28
+  },
+  "theme": {
+    "paper": "#F2ECE1",
+    "ink": "#141110",
+    "accents": [
+      "#FF5A3C",
+      "#2E7D6F",
+      "#E8B33F",
+      "#4C6FFF",
+      "#D94F8A"
+    ],
+    "muted": "#8C8378",
+    "love": {
+      "paper": "#FFF1EA",
+      "ink": "#2B1518",
+      "muted": "#A0807E",
+      "accents": [
+        "#E4572E",
+        "#C2185B",
+        "#F2A7A0",
+        "#8E3B5E"
+      ]
+    },
+    "comic": {
+      "paper": "#FFF8E1",
+      "ink": "#14110F",
+      "muted": "#6B6257",
+      "accents": [
+        "#00B36B",
+        "#3D5AFE",
+        "#FF7A00",
+        "#FFD400"
+      ]
+    },
+    "voxel": {
+      "paper": "#0B1024",
+      "ink": "#F6F2E7",
+      "muted": "#8A93B0",
+      "accents": [
+        "#FFD84D",
+        "#54E1C8",
+        "#FF7A5C"
+      ]
+    }
+  },
+  "output": {
+    "dir": "out"
+  }
+}

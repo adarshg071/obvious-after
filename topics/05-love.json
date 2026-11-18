@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ways-to-say-it",
+    "subject": "how people say i love you",
+    "pillar": "love",
+    "style": "love",
+    "motion": "drift",
+    "mode": "music",
+    "music": "warm",
+    "hook": {
+      "say": "There are four ways people say I love you. Only one of them is words.",
+      "lines": [
+        "Four ways people",
+        "say *I love you*."
+      ],
+      "icon": "heart"
+    },
+    "types": [
+      {
+        "name": "The Rememberer",
+        "say": "You mentioned it once, three weeks ago. It's in their bag.",
+        "tag": "remembered it",
+        "figure": "sit",
+        "icon": "key",
+        "mood": "smile"
+      },
+      {
+        "name": "The Check-In",
+        "say": "A message at nine about nothing. That's the whole point.",
+        "tag": "no reason",
+        "figure": "wave",
+        "icon": "phone",
+        "mood": "open"
+      },
+      {
+        "name": "The Fixer",
+        "say": "You're tired, and the tea is already being made.",
+        "tag": "already making tea",
+        "figure": "stand",
+        "icon": "coffee",
+        "mood": "smile"
+      },
+      {
+        "name": "The One Who Says It",
+        "say": "Out loud. Badly. Heart going.",
+        "tag": "says the words",
+        "figure": "slump",
+        "icon": "heart",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "The loud one isn't always the real one.",
+      "lines": [
+        "The loud one",
+        "isn't always the *real* one."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Words are the rarest love language, not the only one. Which one do you give?",
+    "hashtags": ["#love", "#relationships", "#dating", "#psychology", "#lovelanguage"]
+  },
+  {
+    "id": "im-fine",
+    "subject": "the fine conversation",
+    "pillar": "love",
+    "format": "scene",
+    "style": "love",
+    "motion": "drift",
+    "music": "warm",
+    "hook": {
+      "say": "Two people. One word doing all the work.",
+      "lines": ["Two people.", "One word doing", "all the *work*."]
+    },
+    "cast": {
+      "left": { "figure": "sit", "mood": "flat", "accent": "#8E3B5E" },
+      "right": { "figure": "sit", "mood": "smile", "accent": "#E4572E" }
+    },
+    "lines": [
+      { "who": "right", "say": "You're quiet.", "mood": "open" },
+      { "who": "left", "say": "I'm fine.", "mood": "flat" },
+      { "who": "right", "say": "You're doing the thing where you say fine.", "mood": "smile" },
+      { "who": "left", "say": "I'm not doing a thing.", "mood": "flat" },
+      { "who": "right", "say": "You're doing it right now.", "mood": "open" },
+      { "who": "left", "say": "Okay. I'm not fine.", "mood": "wavy" },
+      { "who": "right", "say": "Okay. Tell me.", "mood": "smile" },
+      { "who": "left", "say": "I just wanted you to ask twice.", "mood": "frown" }
+    ],
+    "kicker": {
+      "say": "Sometimes fine is a question, not an answer.",
+      "lines": ["Sometimes *fine* is", "a question,", "not an answer."]
+    },
+    "end": { "pill": "SEND THIS TO THEM" },
+    "caption": "\"I'm fine\" is rarely the whole sentence. Ask twice.",
+    "hashtags": ["#love", "#relationships", "#couples", "#dating", "#communication"]
+  }
+]

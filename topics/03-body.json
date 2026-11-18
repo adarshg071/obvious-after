@@ -1,0 +1,384 @@
+[
+  {
+    "id": "chronotypes",
+    "subject": "sleep chronotypes",
+    "hook": {
+      "say": "You're not lazy and you're not undisciplined. You're one of four chronotypes.",
+      "lines": [
+        "You're not lazy.",
+        "You're *scheduled*."
+      ],
+      "icon": "sun"
+    },
+    "types": [
+      {
+        "name": "The Lion",
+        "say": "Up before the alarm, sharp by nine, completely useless by eight at night.",
+        "tag": "up before the alarm",
+        "figure": "stand",
+        "icon": "sun",
+        "mood": "open"
+      },
+      {
+        "name": "The Bear",
+        "say": "You follow the sun. Most of the working world is built for you.",
+        "tag": "follows the sun",
+        "figure": "stand",
+        "icon": "sun",
+        "mood": "smile"
+      },
+      {
+        "name": "The Wolf",
+        "say": "Your best thinking happens when everyone else is asleep.",
+        "tag": "alive at midnight",
+        "figure": "wave",
+        "icon": "moon",
+        "mood": "smile"
+      },
+      {
+        "name": "The Dolphin",
+        "say": "Light sleeper, alert mind, tired all day. The unlucky one.",
+        "tag": "tired all day",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "Stop fighting your clock. Put the hard thing at your peak, not your morning.",
+      "lines": [
+        "Stop fighting your clock.",
+        "Move the *hard thing*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Being a wolf in a nine to five world isn't a character flaw. It's a scheduling problem.",
+    "hashtags": [
+      "#sleep",
+      "#chronotype",
+      "#productivity",
+      "#health",
+      "#energy"
+    ]
+  },
+  {
+    "id": "resting",
+    "subject": "how you rest",
+    "mode": "music",
+    "hook": {
+      "say": "There are four ways to rest. Three of them aren't actually rest.",
+      "lines": [
+        "Four ways to rest.",
+        "*Three* don't work."
+      ],
+      "icon": "bed"
+    },
+    "types": [
+      {
+        "name": "The Collapse",
+        "say": "You lie down and scroll until the day is over. That's not rest, that's shutdown.",
+        "tag": "shutdown",
+        "figure": "sit",
+        "icon": "bed",
+        "mood": "flat"
+      },
+      {
+        "name": "Productive Rest",
+        "say": "You call it rest but there's a list involved.",
+        "tag": "there's a list",
+        "figure": "stand",
+        "icon": "clock",
+        "mood": "open"
+      },
+      {
+        "name": "Guilty Rest",
+        "say": "You're horizontal and still doing maths about what you should be doing.",
+        "tag": "horizontal and guilty",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "wavy"
+      },
+      {
+        "name": "Actual Rest",
+        "say": "Nothing is being achieved. That is the entire point.",
+        "tag": "the entire point",
+        "figure": "sit",
+        "icon": "moon",
+        "mood": "smile"
+      }
+    ],
+    "kicker": {
+      "say": "Rest isn't a reward for finishing. It's part of the work.",
+      "lines": [
+        "Not a reward",
+        "for *finishing*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "If your rest needs to be earned, you'll never get enough of it.",
+    "hashtags": [
+      "#burnout",
+      "#rest",
+      "#mentalhealth",
+      "#productivity"
+    ]
+  },
+  {
+    "id": "bad-day",
+    "subject": "bad days",
+    "hook": {
+      "say": "A bad day hits four kinds of people in four different places.",
+      "lines": [
+        "A *bad* day,",
+        "four different places."
+      ],
+      "icon": "cloud"
+    },
+    "types": [
+      {
+        "name": "The Numb",
+        "say": "You go flat. Nothing hurts and nothing lands.",
+        "tag": "goes flat",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "flat"
+      },
+      {
+        "name": "The Fixer",
+        "say": "You start solving. If there's a problem, there's a task.",
+        "tag": "make it a task",
+        "figure": "stand",
+        "icon": "key",
+        "mood": "open"
+      },
+      {
+        "name": "The Talker",
+        "say": "You need to say it out loud to one person. Then it shrinks.",
+        "tag": "say it out loud",
+        "figure": "wave",
+        "icon": "heart",
+        "mood": "open"
+      },
+      {
+        "name": "The Spiral",
+        "say": "One thing goes wrong and your brain writes an entire future about it.",
+        "tag": "writes a whole future",
+        "figure": "sit",
+        "icon": "burst",
+        "mood": "frown"
+      }
+    ],
+    "kicker": {
+      "say": "You don't need a better day. You need the right kind of help.",
+      "lines": [
+        "Not a better day.",
+        "The *right kind* of help."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The spiral feels like planning. That's what makes it convincing.",
+    "hashtags": [
+      "#mentalhealth",
+      "#anxiety",
+      "#coping",
+      "#psychology"
+    ]
+  },
+  {
+    "id": "tiredness",
+    "subject": "types of tired",
+    "hook": {
+      "say": "There are four kinds of tired, and sleep only fixes one of them.",
+      "lines": [
+        "Four kinds of *tired*.",
+        "Sleep fixes one."
+      ],
+      "icon": "bed"
+    },
+    "types": [
+      {
+        "name": "Physical",
+        "say": "Your body is heavy. Sleep actually works on this one.",
+        "tag": "sleep works",
+        "figure": "slump",
+        "icon": "bed",
+        "mood": "flat"
+      },
+      {
+        "name": "Mental",
+        "say": "You've made too many decisions today. Your brain is buffering.",
+        "tag": "brain is buffering",
+        "figure": "stand",
+        "icon": "chart",
+        "mood": "flat"
+      },
+      {
+        "name": "Emotional",
+        "say": "Nothing is wrong, and everything is too much.",
+        "tag": "everything is too much",
+        "figure": "sit",
+        "icon": "heart",
+        "mood": "frown"
+      },
+      {
+        "name": "Social",
+        "say": "You like people. You just can't do one more conversation today.",
+        "tag": "one too many people",
+        "figure": "wave",
+        "icon": "phone",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "If sleep isn't fixing it, it was never a sleep problem.",
+      "lines": [
+        "If sleep doesn't fix it,",
+        "it was never *sleep*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "You can sleep eight hours and still be exhausted. That's the difference between tired and depleted.",
+    "hashtags": [
+      "#burnout",
+      "#exhaustion",
+      "#mentalhealth",
+      "#energy"
+    ]
+  },
+  {
+    "id": "phone-in-bed",
+    "subject": "phones at night",
+    "hook": {
+      "say": "What you do with your phone in bed says a lot about how you sleep.",
+      "lines": [
+        "Your phone",
+        "in *bed*."
+      ],
+      "icon": "phone"
+    },
+    "types": [
+      {
+        "name": "The Scroller",
+        "say": "One more video. That was forty minutes ago.",
+        "tag": "one more",
+        "figure": "sit",
+        "icon": "phone",
+        "mood": "flat"
+      },
+      {
+        "name": "The Sleeper",
+        "say": "Something is playing. You'll never know how it ends.",
+        "tag": "never finishes it",
+        "figure": "slump",
+        "icon": "moon",
+        "mood": "smile"
+      },
+      {
+        "name": "The Doom",
+        "say": "You're not enjoying it. You're just not stopping.",
+        "tag": "not enjoying it",
+        "figure": "stand",
+        "icon": "cloud",
+        "mood": "frown"
+      },
+      {
+        "name": "The Airplane",
+        "say": "Phone across the room. The alarm still works, weirdly.",
+        "tag": "across the room",
+        "figure": "wave",
+        "icon": "key",
+        "mood": "open"
+      }
+    ],
+    "kicker": {
+      "say": "The last thing you look at is what your brain works on all night.",
+      "lines": [
+        "The last thing you see",
+        "is what your brain *rehearses*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "You don't have a sleep problem. You have a last hour problem.",
+    "hashtags": [
+      "#sleep",
+      "#phones",
+      "#habits",
+      "#mentalhealth"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "first-hour",
+    "subject": "the first hour awake",
+    "hook": {
+      "say": "How you spend the first hour awake decides the next fifteen.",
+      "lines": [
+        "The first *hour*",
+        "decides the rest."
+      ],
+      "icon": "sun"
+    },
+    "types": [
+      {
+        "name": "The Phone",
+        "say": "Someone else's morning sets the tone for yours.",
+        "tag": "someone else's morning",
+        "figure": "slump",
+        "icon": "phone",
+        "mood": "flat"
+      },
+      {
+        "name": "The Recovery",
+        "say": "Water, light, no input. You're slow and it works.",
+        "tag": "water, light, quiet",
+        "figure": "sit",
+        "icon": "sun",
+        "mood": "smile"
+      },
+      {
+        "name": "The Planner",
+        "say": "You write the day down before you live it.",
+        "tag": "writes it down",
+        "figure": "stand",
+        "icon": "key",
+        "mood": "smile"
+      },
+      {
+        "name": "The Chaos",
+        "say": "You wake up already late and negotiate with the clock.",
+        "tag": "already late",
+        "figure": "wave",
+        "icon": "clock",
+        "mood": "open"
+      }
+    ],
+    "kicker": {
+      "say": "You don't need a five a m routine. You need ten minutes that belong to you.",
+      "lines": [
+        "No five a m routine.",
+        "Just *ten minutes* that are yours."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The first thing you touch in the morning is usually the thing that decides your mood.",
+    "hashtags": [
+      "#morningroutine",
+      "#habits",
+      "#productivity",
+      "#focus"
+    ],
+    "style": "voxel"
+  }
+]

@@ -1,0 +1,321 @@
+{
+  "slug": "the-draft",
+  "mode": "music",
+  "style": "love",
+  "motion": "drift",
+  "format": "scene",
+  "cast": {
+    "her": {
+      "figure": "stand",
+      "mood": "open",
+      "accent": "#C2185B",
+      "x": 0.5,
+      "scale": 1
+    }
+  },
+  "scenes": [
+    {
+      "bg": "room",
+      "time": "night",
+      "cast": [
+        "her"
+      ],
+      "lines": [
+        {
+          "who": "her",
+          "say": "It's just a text.",
+          "mood": "flat"
+        },
+        {
+          "who": "her",
+          "say": "Hey.",
+          "mood": "open",
+          "prop": "phone",
+          "dur": 1.05
+        },
+        {
+          "who": "her",
+          "say": "No.",
+          "mood": "flat",
+          "dur": 0.9
+        },
+        {
+          "who": "her",
+          "say": "Heyyy.",
+          "mood": "smile",
+          "prop": "phone",
+          "dur": 1.05
+        },
+        {
+          "who": "her",
+          "say": "Too much.",
+          "mood": "wavy",
+          "dur": 1
+        },
+        {
+          "who": "her",
+          "say": "Hey.",
+          "mood": "flat",
+          "prop": "phone",
+          "sfx": "click",
+          "dur": 1
+        }
+      ],
+      "pos": null
+    },
+    {
+      "bg": "room",
+      "time": "night",
+      "cast": [
+        "her"
+      ],
+      "lines": [
+        {
+          "who": "her",
+          "say": "He's typing.",
+          "mood": "open",
+          "cam": "snap",
+          "dur": 1.2
+        },
+        {
+          "who": "her",
+          "say": "He said: I'm outside.",
+          "mood": "open",
+          "cam": "close",
+          "react": true,
+          "sfx": "gasp",
+          "dur": 2
+        }
+      ],
+      "pos": null
+    }
+  ],
+  "accent": "#C2185B",
+  "duration": 18.169999999999998,
+  "theme": {
+    "paper": "#FFF1EA",
+    "ink": "#2B1518",
+    "muted": "#A0807E"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 2.52,
+      "accent": "#C2185B",
+      "lines": [
+        [
+          {
+            "t": "She typed ",
+            "hl": false
+          },
+          {
+            "t": "hey",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "Deleted it.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "scene": 0,
+      "text": "She typed hey. Deleted it.",
+      "prop": null
+    },
+    {
+      "kind": "line",
+      "t0": 2.7,
+      "t1": 4.21,
+      "accent": "#C2185B",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "It's just a text.",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 4.33,
+      "t1": 5.38,
+      "accent": "#C2185B",
+      "mood": "open",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "Hey.",
+      "prop": "phone",
+      "propTurn": 0,
+      "propY": 0,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 5.5,
+      "t1": 6.4,
+      "accent": "#C2185B",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "No.",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 6.5200000000000005,
+      "t1": 7.57,
+      "accent": "#C2185B",
+      "mood": "smile",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "Heyyy.",
+      "prop": "phone",
+      "propTurn": 0,
+      "propY": 0,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 7.69,
+      "t1": 8.690000000000001,
+      "accent": "#C2185B",
+      "mood": "wavy",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "Too much.",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 8.81,
+      "t1": 9.81,
+      "accent": "#C2185B",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "Hey.",
+      "prop": "phone",
+      "propTurn": 0,
+      "propY": 0,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 9.93,
+      "t1": 11.129999999999999,
+      "accent": "#C2185B",
+      "mood": "open",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "He's typing.",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "cam": "snap"
+    },
+    {
+      "kind": "line",
+      "t0": 11.249999999999998,
+      "t1": 13.249999999999998,
+      "accent": "#C2185B",
+      "mood": "open",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "He said: I'm outside.",
+      "prop": null,
+      "propTurn": 0,
+      "propY": 0,
+      "cam": "close"
+    },
+    {
+      "kind": "kicker",
+      "t0": 13.369999999999997,
+      "t1": 15.569999999999997,
+      "accent": "#C2185B",
+      "lines": [
+        [
+          {
+            "t": "He was",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "already ",
+            "hl": false
+          },
+          {
+            "t": "outside",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "He was already outside."
+    },
+    {
+      "kind": "end",
+      "t0": 15.789999999999997,
+      "t1": 17.889999999999997,
+      "accent": "#C2185B",
+      "lines": [
+        [
+          {
+            "t": "Send this to",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "the ",
+            "hl": false
+          },
+          {
+            "t": "overthinker",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Send this to the *overthinker*.",
+      "sub": "@obviousafter",
+      "pill": "SEND IT"
+    }
+  ],
+  "caps": []
+}

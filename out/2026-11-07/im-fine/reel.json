@@ -1,0 +1,268 @@
+{
+  "slug": "im-fine",
+  "mode": "music",
+  "style": "love",
+  "motion": "drift",
+  "format": "scene",
+  "cast": {
+    "left": {
+      "figure": "sit",
+      "mood": "flat",
+      "accent": "#8E3B5E"
+    },
+    "right": {
+      "figure": "sit",
+      "mood": "smile",
+      "accent": "#E4572E"
+    }
+  },
+  "accent": "#8E3B5E",
+  "duration": 37.61999999999999,
+  "theme": {
+    "paper": "#FFF1EA",
+    "ink": "#2B1518",
+    "muted": "#A0807E"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 4.1899999999999995,
+      "accent": "#8E3B5E",
+      "lines": [
+        [
+          {
+            "t": "Two people.",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "One word doing",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "all the ",
+            "hl": false
+          },
+          {
+            "t": "work",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Two people. One word doing all the work."
+    },
+    {
+      "kind": "line",
+      "t0": 4.409999999999999,
+      "t1": 7.01,
+      "accent": "#8E3B5E",
+      "mood": "open",
+      "who": "right",
+      "text": "You're quiet."
+    },
+    {
+      "kind": "line",
+      "t0": 7.2299999999999995,
+      "t1": 9.83,
+      "accent": "#8E3B5E",
+      "mood": "flat",
+      "who": "left",
+      "text": "I'm fine."
+    },
+    {
+      "kind": "line",
+      "t0": 10.05,
+      "t1": 13.89,
+      "accent": "#8E3B5E",
+      "mood": "smile",
+      "who": "right",
+      "text": "You're doing the thing where you say fine."
+    },
+    {
+      "kind": "line",
+      "t0": 14.110000000000001,
+      "t1": 16.96,
+      "accent": "#8E3B5E",
+      "mood": "flat",
+      "who": "left",
+      "text": "I'm not doing a thing."
+    },
+    {
+      "kind": "line",
+      "t0": 17.18,
+      "t1": 20.03,
+      "accent": "#8E3B5E",
+      "mood": "open",
+      "who": "right",
+      "text": "You're doing it right now."
+    },
+    {
+      "kind": "line",
+      "t0": 20.25,
+      "t1": 22.85,
+      "accent": "#8E3B5E",
+      "mood": "wavy",
+      "who": "left",
+      "text": "Okay. I'm not fine."
+    },
+    {
+      "kind": "line",
+      "t0": 23.07,
+      "t1": 25.67,
+      "accent": "#8E3B5E",
+      "mood": "smile",
+      "who": "right",
+      "text": "Okay. Tell me."
+    },
+    {
+      "kind": "line",
+      "t0": 25.89,
+      "t1": 29.4,
+      "accent": "#8E3B5E",
+      "mood": "frown",
+      "who": "left",
+      "text": "I just wanted you to ask twice."
+    },
+    {
+      "kind": "kicker",
+      "t0": 29.619999999999997,
+      "t1": 33.459999999999994,
+      "accent": "#8E3B5E",
+      "lines": [
+        [
+          {
+            "t": "Sometimes ",
+            "hl": false
+          },
+          {
+            "t": "fine",
+            "hl": true
+          },
+          {
+            "t": " is",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "a question,",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "not an answer.",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "Sometimes fine is a question, not an answer."
+    },
+    {
+      "kind": "end",
+      "t0": 33.75999999999999,
+      "t1": 37.26999999999999,
+      "accent": "#8E3B5E",
+      "lines": [
+        [
+          {
+            "t": "The stuff nobody",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "teaches ",
+            "hl": false
+          },
+          {
+            "t": "you",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Follow for the stuff nobody teaches you.",
+      "sub": "@obviousafter",
+      "pill": "SEND THIS TO THEM"
+    }
+  ],
+  "caps": [
+    {
+      "t0": 29.679999999999996,
+      "t1": 31.177619047619043,
+      "words": [
+        {
+          "w": "Sometimes",
+          "t0": 29.679999999999996,
+          "t1": 30.179206349206346
+        },
+        {
+          "w": "fine",
+          "t0": 30.179206349206346,
+          "t1": 30.678412698412693
+        },
+        {
+          "w": "is",
+          "t0": 30.678412698412693,
+          "t1": 31.177619047619043
+        }
+      ]
+    },
+    {
+      "t0": 31.177619047619043,
+      "t1": 32.499047619047616,
+      "words": [
+        {
+          "w": "a",
+          "t0": 31.177619047619043,
+          "t1": 31.618095238095233
+        },
+        {
+          "w": "question,",
+          "t0": 31.618095238095233,
+          "t1": 32.058571428571426
+        },
+        {
+          "w": "not",
+          "t0": 32.058571428571426,
+          "t1": 32.499047619047616
+        }
+      ]
+    },
+    {
+      "t0": 32.499047619047616,
+      "t1": 33.379999999999995,
+      "words": [
+        {
+          "w": "an",
+          "t0": 32.499047619047616,
+          "t1": 32.939523809523806
+        },
+        {
+          "w": "answer.",
+          "t0": 32.939523809523806,
+          "t1": 33.379999999999995
+        }
+      ]
+    }
+  ]
+}

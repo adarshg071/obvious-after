@@ -1,0 +1,31 @@
+{
+  "id": "meera",
+  "name": "Meera",
+  "role": "forty-four, branch librarian, twelve years on the late shift",
+  "body": {
+    "skin": "#a87550",
+    "shirt": "#8c4a34",
+    "pants": "#2b2a33",
+    "shoe": "#211e24",
+    "hair": "#2a2320",
+    "hairStyle": "bob",
+    "height": 0.97,
+    "build": 0.97
+  },
+  "face": {
+    "eyes": "tired",
+    "default": "flat"
+  },
+  "props": [
+    "book"
+  ],
+  "wardrobes": {
+    "morning": {
+      "coat": "#3a4a42",
+      "scarf": "#8c3b2e",
+      "gloves": "#1d1f24"
+    }
+  },
+  "flaw": "would rather file a thing than say it",
+  "bodyLanguage": "stops moving when she means something, one hand always resting on whatever she is about to put away"
+}

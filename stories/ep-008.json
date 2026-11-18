@@ -1,0 +1,298 @@
+{
+  "id": "ep-008",
+  "title": "the dark one",
+  "seed": "ep-008",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "balcony",
+  "leadIn": 0.25,
+  "gap": 0.18,
+  "tail": 0.3,
+  "characters": [
+    "meera",
+    "dev"
+  ],
+  "scenes": [
+    {
+      "set": "balcony",
+      "tail": 0.35,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.05,
+        "targetZ": -0.6,
+        "targetY": 1.7,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "caption": {
+        "text": "10:12 P.M. \u00b7 FOUR FLOORS *UP*",
+        "from": 0.35,
+        "dur": 2.2,
+        "size": 62,
+        "y": 0.15
+      },
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Your light was on.",
+          "dur": 1.7
+        },
+        {
+          "who": "meera",
+          "say": "I leave it on.",
+          "dur": 1.4
+        },
+        {
+          "who": "dev",
+          "say": "Why.",
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "set": "balcony",
+      "tail": 0.3,
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 0,
+        "targetX": 0.55,
+        "targetZ": -1.1,
+        "targetY": 1.92,
+        "fovAdd": 12
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "So you'd know which one's mine.",
+          "dur": 2.4
+        },
+        {
+          "who": "dev",
+          "say": "I know which one's yours.",
+          "dur": 1.9,
+          "laugh": true
+        }
+      ]
+    },
+    {
+      "set": "balcony",
+      "tail": 0.3,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.05,
+        "targetZ": -0.6,
+        "targetY": 1.7,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Which.",
+          "dur": 0.9
+        },
+        {
+          "who": "dev",
+          "say": "Forty.",
+          "dur": 1
+        },
+        {
+          "who": "meera",
+          "say": "You count them.",
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "set": "balcony",
+      "tail": 0.3,
+      "cam": {
+        "shot": "close",
+        "move": "handheld",
+        "angle": 0,
+        "targetX": 0.55,
+        "targetZ": -1.1,
+        "targetY": 1.9,
+        "fovAdd": 12
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Every night.",
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "set": "balcony",
+      "tail": 0.3,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.05,
+        "targetZ": -0.6,
+        "targetY": 1.7,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "How many are lit.",
+          "dur": 1.4
+        },
+        {
+          "who": "dev",
+          "say": "Sixty-two.",
+          "dur": 1.2
+        },
+        {
+          "who": "meera",
+          "say": "And yours.",
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "set": "balcony",
+      "tail": 0.4,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.6,
+        "targetZ": -1.2,
+        "targetY": 1.92,
+        "fovAdd": 12
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "lines": [
+        {
+          "who": "dev",
+          "say": "Mine's not on the list.",
+          "dur": 1.9
+        }
+      ]
+    },
+    {
+      "set": "balcony",
+      "tail": 1,
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 0,
+        "targetX": -0.05,
+        "targetZ": -0.6,
+        "targetY": 1.7,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.78,
+          "z": -1.2,
+          "faceTo": 0.3
+        },
+        {
+          "id": "dev",
+          "x": 0.74,
+          "z": -1.1,
+          "faceTo": -0.32
+        }
+      ],
+      "lines": [
+        {
+          "who": "meera",
+          "say": "Ninety-one flats. Yours is the dark one.",
+          "dur": 3
+        }
+      ]
+    }
+  ]
+}

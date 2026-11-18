@@ -1,0 +1,28 @@
+{
+  "id": "maya",
+  "name": "Maya",
+  "role": "night-shift nurse, 24",
+  "body": {
+    "skin": "#8d5a3b",
+    "shirt": "#2f6f6a",
+    "pants": "#232838",
+    "shoe": "#2c2c36",
+    "hair": "#151318",
+    "hairStyle": "bob",
+    "height": 1.0,
+    "build": 1.0
+  },
+  "face": {
+    "eyes": "tired",
+    "default": "flat"
+  },
+  "voice": {
+    "model": "voices/en_US-amy-medium.onnx",
+    "lengthScale": 1.06,
+    "noiseScale": 0.5,
+    "noiseW": 0.7
+  },
+  "props": ["coffee_cup"],
+  "flaw": "waits instead of asking",
+  "bodyLanguage": "still, hands together, looks at the ground when she lies"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "group-chat-meets",
+  "subject": "the group chat meets up",
+  "duration": 41.349999999999994,
+  "createdAt": "2026-11-07T03:26:00.865Z",
+  "caption": "We met up. He replied at 9pm.",
+  "hashtags": [
+    "#groupchat",
+    "#funny",
+    "#relatable",
+    "#friends",
+    "#storytime"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 5.18,
+      "text": "They finally met up. Four of them. Guess how many showed."
+    },
+    {
+      "kind": "line",
+      "t0": 5.4,
+      "t1": 8,
+      "text": "He said he's coming."
+    },
+    {
+      "kind": "line",
+      "t0": 8.22,
+      "t1": 11.07,
+      "text": "He said that in March."
+    },
+    {
+      "kind": "line",
+      "t0": 11.29,
+      "t1": 14.14,
+      "text": "Are you ready to order?"
+    },
+    {
+      "kind": "line",
+      "t0": 14.36,
+      "t1": 17.87,
+      "text": "In a sense. But what is ready."
+    },
+    {
+      "kind": "line",
+      "t0": 18.09,
+      "t1": 20.94,
+      "text": "I'll have what he's having."
+    },
+    {
+      "kind": "line",
+      "t0": 21.16,
+      "t1": 23.76,
+      "text": "He's not here."
+    },
+    {
+      "kind": "line",
+      "t0": 23.98,
+      "t1": 26.58,
+      "text": "sorry, just saw this."
+    },
+    {
+      "kind": "line",
+      "t0": 26.8,
+      "t1": 29.4,
+      "text": "IT IS 9PM."
+    },
+    {
+      "kind": "line",
+      "t0": 29.62,
+      "t1": 33.13,
+      "text": "To be fair, time is a construct."
+    },
+    {
+      "kind": "kicker",
+      "t0": 33.35,
+      "t1": 37.19,
+      "text": "The meet-up happened. He was there in spirit."
+    },
+    {
+      "kind": "end",
+      "t0": 37.49,
+      "t1": 41,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

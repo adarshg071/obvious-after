@@ -1,0 +1,477 @@
+{
+  "id": "ep-004",
+  "title": "dry it",
+  "seed": "ep-004",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "laundry",
+  "leadIn": 0.4,
+  "gap": 0.18,
+  "tail": 0.35,
+  "characters": [
+    "theo",
+    "ruby"
+  ],
+  "scenes": [
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "two",
+        "move": "push",
+        "angle": 8,
+        "targetZ": 0.5,
+        "targetY": 1.45,
+        "fovAdd": 5
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "caption": {
+        "text": "3:04 A.M. · THE ONLY PLACE *OPEN*",
+        "from": 0.3,
+        "dur": 3.0,
+        "size": 62,
+        "y": 0.16
+      },
+      "lines": [
+        {
+          "who": "theo",
+          "say": "That's one hoodie.",
+          "react": "look"
+        },
+        {
+          "who": "ruby",
+          "say": "It's a big load."
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 26,
+        "targetZ": 0.5,
+        "targetY": 1.42,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "fx": [
+        "click"
+      ],
+      "lines": [
+        {
+          "who": "theo",
+          "say": "Four Tuesdays. Same hoodie."
+        },
+        {
+          "who": "ruby",
+          "say": "You count.",
+          "react": "look"
+        },
+        {
+          "who": "ruby",
+          "say": "I stopped counting."
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": -48,
+        "targetX": 0.85,
+        "targetZ": 0.55,
+        "targetY": 2.05,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "lines": [
+        {
+          "who": "theo",
+          "say": "Forty minutes a wash, that thing."
+        },
+        {
+          "who": "ruby",
+          "say": "Then go home.",
+          "react": "away"
+        },
+        {
+          "who": "theo",
+          "say": "I'm not the one washing a ghost."
+        },
+        {
+          "who": "ruby",
+          "say": "It's a jumper."
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 48,
+        "targetX": -0.85,
+        "targetZ": 0.55,
+        "targetY": 2.02,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "lines": [
+        {
+          "who": "ruby",
+          "say": "It's forty quid of cotton."
+        },
+        {
+          "who": "theo",
+          "say": "Same thing. Drier."
+        },
+        {
+          "who": "ruby",
+          "say": "That's terrible."
+        },
+        {
+          "who": "theo",
+          "say": "You laughed."
+        },
+        {
+          "who": "ruby",
+          "say": "The dryer laughed."
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 12,
+        "targetZ": 0.5,
+        "targetY": 1.44
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "lines": [
+        {
+          "who": "ruby",
+          "say": "You fold your socks like they're going somewhere."
+        },
+        {
+          "who": "theo",
+          "say": "So they don't look like they gave up.",
+          "react": "down"
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "ots",
+        "move": "static",
+        "angle": 126,
+        "targetX": -0.85,
+        "targetZ": 0.55,
+        "targetY": 1.66,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "lines": [
+        {
+          "who": "ruby",
+          "say": "It's my ex's.",
+          "react": "down"
+        },
+        {
+          "who": "ruby",
+          "say": "So he has to come and get it."
+        },
+        {
+          "who": "theo",
+          "say": "He's not coming."
+        },
+        {
+          "who": "ruby",
+          "say": "I know."
+        },
+        {
+          "who": "theo",
+          "say": "So what's the wash for."
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": -20,
+        "targetX": 0.85,
+        "targetZ": 0.55,
+        "targetY": 2.04,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "lines": [
+        {
+          "who": "ruby",
+          "say": "I'm selling it."
+        },
+        {
+          "who": "theo",
+          "say": "For how much."
+        },
+        {
+          "who": "ruby",
+          "say": "Forty."
+        },
+        {
+          "who": "theo",
+          "say": "It's worth sixty."
+        },
+        {
+          "who": "ruby",
+          "say": "You want it for sixty."
+        },
+        {
+          "who": "theo",
+          "say": "…Forty."
+        }
+      ]
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": 20,
+        "targetX": -0.85,
+        "targetZ": 0.55,
+        "targetY": 2.02,
+        "fovAdd": 6
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "lines": [
+        {
+          "who": "theo",
+          "say": "Does the smell come out.",
+          "react": "down"
+        },
+        {
+          "who": "ruby",
+          "say": "…Yeah.",
+          "react": "away"
+        },
+        {
+          "who": "ruby",
+          "say": "In about forty minutes."
+        }
+      ],
+      "tail": 0.5
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "two",
+        "move": "static",
+        "angle": 26,
+        "targetZ": 0.5,
+        "targetY": 1.42,
+        "fovAdd": 2
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        },
+        {
+          "id": "ruby",
+          "x": 0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": -1.22
+        }
+      ],
+      "fx": [
+        "click"
+      ],
+      "lines": [
+        {
+          "who": "ruby",
+          "say": "It's yours. Forty."
+        },
+        {
+          "who": "theo",
+          "say": "I've got a fiver and a dryer."
+        },
+        {
+          "who": "ruby",
+          "say": "That's not forty."
+        },
+        {
+          "who": "theo",
+          "say": "It's a start."
+        },
+        {
+          "who": "ruby",
+          "say": "Fine. Dry it.",
+          "react": "look"
+        }
+      ],
+      "tail": 0.6
+    },
+    {
+      "set": "laundromat",
+      "cam": {
+        "shot": "two",
+        "move": "pull",
+        "angle": 14,
+        "targetZ": 0.4,
+        "targetY": 1.4,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "theo",
+          "x": -0.85,
+          "z": 0.55,
+          "pose": "idle",
+          "faceTo": 1.22
+        }
+      ],
+      "fx": [
+        "door"
+      ],
+      "lines": [
+        {
+          "who": "ruby",
+          "say": "Don't fold it.",
+          "card": false
+        }
+      ],
+      "hold": 1.0,
+      "tail": 1.6
+    }
+  ]
+}

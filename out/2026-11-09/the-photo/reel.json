@@ -1,0 +1,328 @@
+{
+  "slug": "the-photo",
+  "mode": "music",
+  "style": "love",
+  "motion": "drift",
+  "format": "scene",
+  "cast": {
+    "her": {
+      "figure": "stand",
+      "mood": "open",
+      "accent": "#C2185B",
+      "x": 0.36
+    },
+    "him": {
+      "figure": "stand",
+      "mood": "flat",
+      "accent": "#E4572E",
+      "x": 0.68
+    }
+  },
+  "scenes": [
+    {
+      "bg": "street",
+      "time": "night",
+      "cast": [
+        "her",
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "her",
+          "say": "One more.",
+          "mood": "smile",
+          "prop": "phone"
+        },
+        {
+          "who": "him",
+          "say": "Delete that one.",
+          "mood": "flat"
+        },
+        {
+          "who": "her",
+          "say": "Why?",
+          "mood": "open"
+        },
+        {
+          "who": "him",
+          "say": "Just delete it.",
+          "mood": "frown"
+        }
+      ],
+      "pos": null
+    },
+    {
+      "bg": "cafe",
+      "time": "day",
+      "cast": [
+        "her",
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "her",
+          "say": "You never take photos with me.",
+          "mood": "flat"
+        },
+        {
+          "who": "him",
+          "say": "I don't like photos.",
+          "mood": "flat"
+        },
+        {
+          "who": "her",
+          "say": "Then what's in your wallet?",
+          "mood": "open",
+          "cam": "push"
+        },
+        {
+          "who": "him",
+          "say": "Nothing.",
+          "mood": "flat"
+        },
+        {
+          "who": "her",
+          "say": "This is the one you *deleted*.",
+          "mood": "wavy",
+          "duck": true,
+          "cam": "push",
+          "prop": "photo"
+        }
+      ],
+      "pos": null
+    }
+  ],
+  "accent": "#F2A7A0",
+  "duration": 23.689999999999998,
+  "theme": {
+    "paper": "#FFF1EA",
+    "ink": "#2B1518",
+    "muted": "#A0807E"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 3.12,
+      "accent": "#F2A7A0",
+      "lines": [
+        [
+          {
+            "t": "He told her",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "to delete",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "the ",
+            "hl": false
+          },
+          {
+            "t": "photo",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "scene": 0,
+      "text": "He told her to delete the photo.",
+      "prop": null
+    },
+    {
+      "kind": "line",
+      "t0": 3.3000000000000003,
+      "t1": 4.33,
+      "accent": "#F2A7A0",
+      "mood": "smile",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "One more.",
+      "prop": "phone",
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 4.45,
+      "t1": 5.720000000000001,
+      "accent": "#F2A7A0",
+      "mood": "flat",
+      "figure": null,
+      "who": "him",
+      "scene": 0,
+      "text": "Delete that one.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 5.840000000000001,
+      "t1": 6.740000000000001,
+      "accent": "#F2A7A0",
+      "mood": "open",
+      "figure": null,
+      "who": "her",
+      "scene": 0,
+      "text": "Why?",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 6.860000000000001,
+      "t1": 8.13,
+      "accent": "#F2A7A0",
+      "mood": "frown",
+      "figure": null,
+      "who": "him",
+      "scene": 0,
+      "text": "Just delete it.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 8.25,
+      "t1": 10.24,
+      "accent": "#F2A7A0",
+      "mood": "flat",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "You never take photos with me.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 10.36,
+      "t1": 11.87,
+      "accent": "#F2A7A0",
+      "mood": "flat",
+      "figure": null,
+      "who": "him",
+      "scene": 1,
+      "text": "I don't like photos.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 11.989999999999998,
+      "t1": 13.739999999999998,
+      "accent": "#F2A7A0",
+      "mood": "open",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "Then what's in your wallet?",
+      "prop": null,
+      "cam": "push"
+    },
+    {
+      "kind": "line",
+      "t0": 13.859999999999998,
+      "t1": 14.759999999999998,
+      "accent": "#F2A7A0",
+      "mood": "flat",
+      "figure": null,
+      "who": "him",
+      "scene": 1,
+      "text": "Nothing.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 14.879999999999997,
+      "t1": 16.869999999999997,
+      "accent": "#F2A7A0",
+      "mood": "wavy",
+      "figure": null,
+      "who": "her",
+      "scene": 1,
+      "text": "This is the one you *deleted*.",
+      "prop": "photo",
+      "cam": "push"
+    },
+    {
+      "kind": "kicker",
+      "t0": 16.99,
+      "t1": 20.389999999999997,
+      "accent": "#F2A7A0",
+      "lines": [
+        [
+          {
+            "t": "He said delete it.",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "He meant",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "keep",
+            "hl": true
+          },
+          {
+            "t": " it.",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "He said delete it. He meant keep it."
+    },
+    {
+      "kind": "end",
+      "t0": 20.609999999999996,
+      "t1": 23.409999999999997,
+      "accent": "#F2A7A0",
+      "lines": [
+        [
+          {
+            "t": "Send this to",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "the one who ",
+            "hl": false
+          },
+          {
+            "t": "gets",
+            "hl": true
+          },
+          {
+            "t": " it.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Send this to the one who *gets* it.",
+      "sub": "@obviousafter",
+      "pill": "SEND IT"
+    }
+  ],
+  "caps": []
+}

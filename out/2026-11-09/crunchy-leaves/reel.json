@@ -1,0 +1,247 @@
+{
+  "slug": "crunchy-leaves",
+  "mode": "music",
+  "style": "comic",
+  "motion": "snap",
+  "format": "scene",
+  "cast": {
+    "guy": {
+      "figure": "stand",
+      "mood": "smile",
+      "accent": "#C9A227",
+      "x": 0.26,
+      "scale": 1
+    },
+    "giant": {
+      "figure": "slump",
+      "mood": "flat",
+      "accent": "#3E6B8E",
+      "x": 0.74,
+      "scale": 1.4
+    }
+  },
+  "scenes": [
+    {
+      "bg": "park",
+      "time": "day",
+      "cast": [
+        "guy"
+      ],
+      "lines": [
+        {
+          "who": "guy",
+          "say": "Crunchy.",
+          "mood": "smile",
+          "prop": "leaf",
+          "sfx": "crunch"
+        }
+      ],
+      "pos": null
+    },
+    {
+      "bg": "park",
+      "time": "day",
+      "cast": [
+        "guy",
+        "giant"
+      ],
+      "lines": [
+        {
+          "who": "giant",
+          "say": "You hear that?",
+          "mood": "flat",
+          "cam": "push"
+        },
+        {
+          "who": "guy",
+          "say": "Crunchy.",
+          "mood": "smile",
+          "prop": "leaf",
+          "sfx": "crunch"
+        },
+        {
+          "who": "giant",
+          "say": "Those were my friends.",
+          "mood": "frown",
+          "duck": true,
+          "cam": "push"
+        },
+        {
+          "who": "guy",
+          "say": "Oh.",
+          "mood": "wavy"
+        }
+      ],
+      "pos": null
+    }
+  ],
+  "accent": "#3D5AFE",
+  "duration": 14.139999999999999,
+  "theme": {
+    "paper": "#FFF8E1",
+    "ink": "#14110F",
+    "muted": "#6B6257"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 2.52,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "He found",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "the ",
+            "hl": false
+          },
+          {
+            "t": "leaf",
+            "hl": true
+          },
+          {
+            "t": " pile.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "scene": 0,
+      "text": "He found the leaf pile.",
+      "prop": "leaf"
+    },
+    {
+      "kind": "line",
+      "t0": 2.7,
+      "t1": 3.6,
+      "accent": "#3D5AFE",
+      "mood": "smile",
+      "figure": null,
+      "who": "guy",
+      "scene": 0,
+      "text": "Crunchy.",
+      "prop": "leaf",
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 3.72,
+      "t1": 4.99,
+      "accent": "#3D5AFE",
+      "mood": "flat",
+      "figure": null,
+      "who": "giant",
+      "scene": 1,
+      "text": "You hear that?",
+      "prop": null,
+      "cam": "push"
+    },
+    {
+      "kind": "line",
+      "t0": 5.11,
+      "t1": 6.010000000000001,
+      "accent": "#3D5AFE",
+      "mood": "smile",
+      "figure": null,
+      "who": "guy",
+      "scene": 1,
+      "text": "Crunchy.",
+      "prop": "leaf",
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 6.130000000000001,
+      "t1": 7.640000000000001,
+      "accent": "#3D5AFE",
+      "mood": "frown",
+      "figure": null,
+      "who": "giant",
+      "scene": 1,
+      "text": "Those were my friends.",
+      "prop": null,
+      "cam": "push"
+    },
+    {
+      "kind": "line",
+      "t0": 7.760000000000001,
+      "t1": 8.66,
+      "accent": "#3D5AFE",
+      "mood": "wavy",
+      "figure": null,
+      "who": "guy",
+      "scene": 1,
+      "text": "Oh.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "kicker",
+      "t0": 8.78,
+      "t1": 11.28,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "He walks on",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "tiptoes",
+            "hl": true
+          },
+          {
+            "t": " now.",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "He walks on tiptoes now."
+    },
+    {
+      "kind": "end",
+      "t0": 11.5,
+      "t1": 13.86,
+      "accent": "#3D5AFE",
+      "lines": [
+        [
+          {
+            "t": "Send this to",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "the leaf ",
+            "hl": false
+          },
+          {
+            "t": "criminal",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Send this to the leaf *criminal*.",
+      "sub": "@obviousafter",
+      "pill": "SEND IT"
+    }
+  ],
+  "caps": []
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "the-photo",
+    "subject": "the photo he deleted",
+    "pillar": "love",
+    "format": "scene",
+    "style": "love",
+    "motion": "drift",
+    "mode": "music",
+    "music": "warm",
+    "hook": {
+      "say": "He told her to delete the photo.",
+      "lines": ["He told her", "to delete", "the *photo*."]
+    },
+    "cast": {
+      "her": { "figure": "stand", "mood": "open", "accent": "#C2185B", "x": 0.36 },
+      "him": { "figure": "stand", "mood": "flat", "accent": "#E4572E", "x": 0.68 }
+    },
+    "scenes": [
+      {
+        "bg": "street",
+        "time": "night",
+        "cast": ["her", "him"],
+        "lines": [
+          { "who": "her", "say": "One more.", "mood": "smile", "prop": "phone" },
+          { "who": "him", "say": "Delete that one.", "mood": "flat" },
+          { "who": "her", "say": "Why?", "mood": "open" },
+          { "who": "him", "say": "Just delete it.", "mood": "frown" }
+        ]
+      },
+      {
+        "bg": "cafe",
+        "time": "day",
+        "cast": ["her", "him"],
+        "lines": [
+          { "who": "her", "say": "You never take photos with me.", "mood": "flat" },
+          { "who": "him", "say": "I don't like photos.", "mood": "flat" },
+          { "who": "her", "say": "Then what's in your wallet?", "mood": "open", "cam": "push" },
+          { "who": "him", "say": "Nothing.", "mood": "flat" },
+          {
+            "who": "her",
+            "say": "This is the one you *deleted*.",
+            "mood": "wavy",
+            "duck": true,
+            "cam": "push",
+            "prop": "photo"
+          }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "He said delete it. He meant keep it.",
+      "lines": ["He said delete it.", "He meant", "*keep* it."]
+    },
+    "end": {
+      "lines": ["Send this to", "the one who *gets* it."],
+      "pill": "SEND IT"
+    },
+    "caption": "He told me to delete it.",
+    "hashtags": ["#love", "#relationships", "#couples", "#storytime", "#relatable"]
+  },
+  {
+    "id": "five-minutes",
+    "subject": "five minutes away",
+    "pillar": "funny",
+    "format": "scene",
+    "style": "comic",
+    "motion": "snap",
+    "mode": "music",
+    "music": "bright",
+    "hook": {
+      "say": "He said five minutes. It's been an hour.",
+      "lines": ["He said *five* minutes.", "It's been an hour."],
+      "icon": "clock"
+    },
+    "cast": {
+      "organiser": { "figure": "stand", "mood": "open", "accent": "#E4572E", "x": 0.3 },
+      "ghost": { "figure": "slump", "mood": "flat", "accent": "#3E6B8E", "x": 0.58 },
+      "him": { "figure": "wave", "mood": "smile", "accent": "#C9A227", "x": 0.8 }
+    },
+    "scenes": [
+      {
+        "bg": "cafe",
+        "time": "day",
+        "cast": ["organiser", "ghost"],
+        "lines": [
+          { "who": "organiser", "say": "He's five minutes away.", "mood": "open" },
+          { "who": "ghost", "say": "He texted that at 8.", "mood": "flat" },
+          { "who": "organiser", "say": "He's close.", "mood": "smile" },
+          { "who": "ghost", "say": "He's in bed.", "mood": "flat", "cam": "push" }
+        ]
+      },
+      {
+        "bg": "room",
+        "time": "night",
+        "cast": ["him"],
+        "pos": { "him": 0.5 },
+        "lines": [
+          { "who": "him", "say": "5 min.", "mood": "flat", "figure": "slump", "prop": "phone", "cam": "push" },
+          { "who": "him", "say": "Send.", "mood": "smile", "figure": "slump", "prop": "phone" }
+        ]
+      },
+      {
+        "bg": "street",
+        "time": "night",
+        "cast": ["organiser", "ghost", "him"],
+        "lines": [
+          { "who": "him", "say": "Sorry. Traffic.", "mood": "open" },
+          { "who": "organiser", "say": "You live upstairs.", "mood": "frown" },
+          { "who": "him", "say": "It's a long staircase.", "mood": "smile" },
+          { "who": "ghost", "say": "We watched you put pyjamas on.", "mood": "flat", "duck": true }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "Some people are late. He's a concept.",
+      "lines": ["Some people are late.", "He's a", "*concept*."]
+    },
+    "end": {
+      "lines": ["Tag the one", "who's always", "*five* minutes away."],
+      "pill": "TAG THEM"
+    },
+    "caption": "He's always five minutes away.",
+    "hashtags": ["#funny", "#relatable", "#friends", "#groupchat", "#storytime"]
+  }
+]

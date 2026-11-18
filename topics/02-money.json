@@ -1,0 +1,383 @@
+[
+  {
+    "id": "windfall",
+    "subject": "unexpected money",
+    "hook": {
+      "say": "You get ten thousand dollars you didn't plan for. There are four reactions, and they're all about what you think you deserve.",
+      "lines": [
+        "Ten thousand dollars,",
+        "out of *nowhere*."
+      ],
+      "icon": "coin"
+    },
+    "types": [
+      {
+        "name": "The Spender",
+        "say": "It's already spent before it lands. That was the point of it.",
+        "tag": "spent before it lands",
+        "figure": "wave",
+        "icon": "coin",
+        "mood": "open"
+      },
+      {
+        "name": "The Saver",
+        "say": "It goes somewhere safe and you never think about it again.",
+        "tag": "somewhere safe",
+        "figure": "stand",
+        "icon": "heart",
+        "mood": "smile"
+      },
+      {
+        "name": "The Investor",
+        "say": "You ask what it could become in five years.",
+        "tag": "what could it become",
+        "figure": "stand",
+        "icon": "chart",
+        "mood": "open"
+      },
+      {
+        "name": "The Avoider",
+        "say": "You leave it sitting there, because deciding feels dangerous.",
+        "tag": "leaves it sitting",
+        "figure": "slump",
+        "icon": "clock",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "A windfall doesn't change your money habits. It just makes them louder.",
+      "lines": [
+        "Money doesn't change you.",
+        "It makes you *louder*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Nobody thinks they'd be the spender until the money is actually in the account.",
+    "hashtags": [
+      "#money",
+      "#personalfinance",
+      "#moneymindset",
+      "#psychology"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "money-personality",
+    "subject": "money personalities",
+    "hook": {
+      "say": "There are four money personalities. None of them are about how much you earn.",
+      "lines": [
+        "Four *money*",
+        "personalities."
+      ],
+      "icon": "chart"
+    },
+    "types": [
+      {
+        "name": "The Optimizer",
+        "say": "You'll spend an hour to save four dollars, and genuinely enjoy it.",
+        "tag": "an hour to save four dollars",
+        "figure": "stand",
+        "icon": "chart",
+        "mood": "smile"
+      },
+      {
+        "name": "The Status Buyer",
+        "say": "You buy the version people can see.",
+        "tag": "the visible version",
+        "figure": "wave",
+        "icon": "coin",
+        "mood": "open"
+      },
+      {
+        "name": "The Quiet Saver",
+        "say": "Nobody knows your number. That's the whole point.",
+        "tag": "nobody knows your number",
+        "figure": "sit",
+        "icon": "key",
+        "mood": "smile"
+      },
+      {
+        "name": "The Avoider",
+        "say": "You'd rather not look. Looking makes it real.",
+        "tag": "rather not look",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "Your spending is a story about safety. Read it before you judge it.",
+      "lines": [
+        "Spending is a story",
+        "about *safety*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The status buyer and the quiet saver are usually the same person, ten years apart.",
+    "hashtags": [
+      "#money",
+      "#consumersim",
+      "#moneymindset",
+      "#personalfinance"
+    ]
+  },
+  {
+    "id": "saving-style",
+    "subject": "how you save",
+    "hook": {
+      "say": "Everyone saves differently. Only one of these actually works.",
+      "lines": [
+        "Everyone saves",
+        "*differently*."
+      ],
+      "icon": "coin"
+    },
+    "types": [
+      {
+        "name": "The Automatic",
+        "say": "It leaves before you see it. You never miss it.",
+        "tag": "leaves before you see it",
+        "figure": "stand",
+        "icon": "clock",
+        "mood": "smile"
+      },
+      {
+        "name": "The Manual",
+        "say": "You transfer what's left at the end of the month. There's never anything left.",
+        "tag": "whatever's left, nothing",
+        "figure": "slump",
+        "icon": "coin",
+        "mood": "flat"
+      },
+      {
+        "name": "The Round-Up",
+        "say": "Small amounts, constantly. It feels like nothing and quietly becomes something.",
+        "tag": "small and constant",
+        "figure": "sit",
+        "icon": "chart",
+        "mood": "smile"
+      },
+      {
+        "name": "The Never",
+        "say": "There's always a reason this month is different.",
+        "tag": "next month though",
+        "figure": "wave",
+        "icon": "cloud",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "Saving isn't discipline. It's a system that runs without you.",
+      "lines": [
+        "Not *discipline*.",
+        "A system."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "If your savings depend on remembering, you don't have savings. You have intentions.",
+    "hashtags": [
+      "#savingmoney",
+      "#personalfinance",
+      "#moneytips",
+      "#habits"
+    ]
+  },
+  {
+    "id": "tracking-money",
+    "subject": "tracking money",
+    "hook": {
+      "say": "How you track your money tells you more than your bank balance does.",
+      "lines": [
+        "How you track",
+        "your *money*."
+      ],
+      "icon": "chart"
+    },
+    "types": [
+      {
+        "name": "The App",
+        "say": "Three apps, two budgets, one graph you check every morning.",
+        "tag": "three apps",
+        "figure": "stand",
+        "icon": "phone",
+        "mood": "smile"
+      },
+      {
+        "name": "The Spreadsheet",
+        "say": "Six tabs, colour coded, updated every Sunday night.",
+        "tag": "six tabs",
+        "figure": "sit",
+        "icon": "chart",
+        "mood": "smile"
+      },
+      {
+        "name": "The Head",
+        "say": "You know roughly. Roughly is doing a lot of work in that sentence.",
+        "tag": "roughly",
+        "figure": "wave",
+        "icon": "cloud",
+        "mood": "wavy"
+      },
+      {
+        "name": "The None",
+        "say": "You find out at the end of the month, usually standing in a shop.",
+        "tag": "end of month, in a shop",
+        "figure": "slump",
+        "icon": "coin",
+        "mood": "flat"
+      }
+    ],
+    "kicker": {
+      "say": "You can't fix what you refuse to look at. Ten minutes a week is enough.",
+      "lines": [
+        "You can't fix",
+        "what you *won't look at*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The spreadsheet person and the no-tracker person often have the same amount of money. One just sleeps better.",
+    "hashtags": [
+      "#budgeting",
+      "#personalfinance",
+      "#moneyhabits",
+      "#adulting"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "money-stress",
+    "subject": "money stress",
+    "hook": {
+      "say": "Money stress shows up in four ways. Only one of them actually helps.",
+      "lines": [
+        "Money stress",
+        "shows up *four* ways."
+      ],
+      "icon": "cloud"
+    },
+    "types": [
+      {
+        "name": "The Budget",
+        "say": "You make a plan at midnight and feel briefly in control.",
+        "tag": "midnight plan",
+        "figure": "stand",
+        "icon": "chart",
+        "mood": "smile"
+      },
+      {
+        "name": "The Avoid",
+        "say": "You don't open the app. If you don't see it, it's a rumour.",
+        "tag": "it's a rumour",
+        "figure": "slump",
+        "icon": "phone",
+        "mood": "flat"
+      },
+      {
+        "name": "The Earn",
+        "say": "You take on more work instead of looking at the numbers.",
+        "tag": "more work instead",
+        "figure": "wave",
+        "icon": "clock",
+        "mood": "open"
+      },
+      {
+        "name": "The Deny",
+        "say": "You buy something small to feel better about the thing you can't afford.",
+        "tag": "small treat, big problem",
+        "figure": "sit",
+        "icon": "coin",
+        "mood": "wavy"
+      }
+    ],
+    "kicker": {
+      "say": "Financial stress is usually a math problem wrapped in a shame problem.",
+      "lines": [
+        "A math problem",
+        "wrapped in *shame*."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "Avoidance is the most expensive money habit there is. It charges interest.",
+    "hashtags": [
+      "#moneystress",
+      "#personalfinance",
+      "#mentalhealth",
+      "#money"
+    ],
+    "style": "voxel"
+  },
+  {
+    "id": "sad-purchases",
+    "subject": "buying when sad",
+    "hook": {
+      "say": "There are four things people buy when they're sad. None of them fix it.",
+      "lines": [
+        "What you buy",
+        "when you're *sad*."
+      ],
+      "icon": "coin"
+    },
+    "types": [
+      {
+        "name": "The Comfort",
+        "say": "Food, a blanket, something warm. You're not buying a thing, you're buying care.",
+        "tag": "buying care",
+        "figure": "sit",
+        "icon": "coffee",
+        "mood": "smile"
+      },
+      {
+        "name": "The Upgrade",
+        "say": "A better version of something you already own and already liked.",
+        "tag": "a better version",
+        "figure": "stand",
+        "icon": "phone",
+        "mood": "open"
+      },
+      {
+        "name": "The Impulse",
+        "say": "You don't remember deciding. It arrives on Thursday.",
+        "tag": "arrives Thursday",
+        "figure": "wave",
+        "icon": "burst",
+        "mood": "open"
+      },
+      {
+        "name": "The Nothing",
+        "say": "You want to. You just can't justify it. So you buy nothing and feel worse.",
+        "tag": "buys nothing, feels worse",
+        "figure": "slump",
+        "icon": "cloud",
+        "mood": "frown"
+      }
+    ],
+    "kicker": {
+      "say": "Retail therapy works for about eleven minutes. Then it's just a receipt.",
+      "lines": [
+        "Works for *eleven* minutes.",
+        "Then it's a receipt."
+      ]
+    },
+    "end": {
+      "pill": "FOLLOW FOR MORE"
+    },
+    "caption": "The purchase isn't the problem. The feeling you were trying to skip is.",
+    "hashtags": [
+      "#retailtherapy",
+      "#spending",
+      "#psychology",
+      "#moneyhabits"
+    ]
+  }
+]

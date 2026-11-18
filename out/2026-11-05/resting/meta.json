@@ -1,0 +1,57 @@
+{
+  "slug": "resting",
+  "subject": "how you rest",
+  "duration": 35.02,
+  "createdAt": "2026-11-05T03:42:40.950Z",
+  "caption": "If your rest needs to be earned, you'll never get enough of it.",
+  "hashtags": [
+    "#burnout",
+    "#rest",
+    "#mentalhealth",
+    "#productivity"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 5.51,
+      "text": "There are four ways to rest. Three of them aren't actually rest."
+    },
+    {
+      "kind": "type",
+      "t0": 5.73,
+      "t1": 11.73,
+      "text": "You lie down and scroll until the day is over. That's not rest, that's shutdown."
+    },
+    {
+      "kind": "type",
+      "t0": 11.93,
+      "t1": 16.1,
+      "text": "You call it rest but there's a list involved."
+    },
+    {
+      "kind": "type",
+      "t0": 16.3,
+      "t1": 21.46,
+      "text": "You're horizontal and still doing maths about what you should be doing."
+    },
+    {
+      "kind": "type",
+      "t0": 21.66,
+      "t1": 25.83,
+      "text": "Nothing is being achieved. That is the entire point."
+    },
+    {
+      "kind": "kicker",
+      "t0": 26.03,
+      "t1": 30.86,
+      "text": "Rest isn't a reward for finishing. It's part of the work."
+    },
+    {
+      "kind": "end",
+      "t0": 31.16,
+      "t1": 34.67,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

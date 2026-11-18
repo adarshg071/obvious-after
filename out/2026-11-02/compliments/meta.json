@@ -1,0 +1,57 @@
+{
+  "slug": "compliments",
+  "subject": "taking a compliment",
+  "duration": 31.080135,
+  "createdAt": "2026-11-02T10:04:56.904Z",
+  "caption": "Which one do you do? Deflecting a compliment is just telling someone their taste is wrong.",
+  "hashtags": [
+    "#selfworth",
+    "#confidence",
+    "#psychology",
+    "#selfawareness"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.35,
+      "t1": 4.96,
+      "text": "Someone compliments you. There are four ways people ruin it."
+    },
+    {
+      "kind": "type",
+      "t0": 5.18,
+      "t1": 9.14,
+      "text": "You immediately explain why it wasn't actually that good."
+    },
+    {
+      "kind": "type",
+      "t0": 9.34,
+      "t1": 14.31,
+      "text": "You say thank you. That's it. Somehow that's the uncomfortable one."
+    },
+    {
+      "kind": "type",
+      "t0": 14.51,
+      "t1": 19.17,
+      "text": "You assume they want something. Nobody's ever just nice."
+    },
+    {
+      "kind": "type",
+      "t0": 19.37,
+      "t1": 23.21,
+      "text": "You make a joke before anyone can take it seriously."
+    },
+    {
+      "kind": "kicker",
+      "t0": 23.41,
+      "t1": 27.34,
+      "text": "A compliment is a gift. You're allowed to keep it."
+    },
+    {
+      "kind": "end",
+      "t0": 27.64,
+      "t1": 30.73,
+      "text": "Follow for the stuff nobody teaches you."
+    }
+  ]
+}

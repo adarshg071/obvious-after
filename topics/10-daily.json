@@ -1,0 +1,290 @@
+[
+  {
+    "id": "the-umbrella",
+    "subject": "the umbrella",
+    "pillar": "love",
+    "format": "scene",
+    "style": "love",
+    "motion": "drift",
+    "mode": "music",
+    "music": "warm",
+    "hook": {
+      "say": "He said he wasn't cold.",
+      "lines": [
+        "He said he",
+        "wasn't *cold*."
+      ],
+      "prop": "umbrella"
+    },
+    "cast": {
+      "her": {
+        "figure": "stand",
+        "mood": "smile",
+        "accent": "#C2185B",
+        "x": 0.34
+      },
+      "him": {
+        "figure": "stand",
+        "mood": "flat",
+        "accent": "#3E6B8E",
+        "x": 0.66
+      }
+    },
+    "scenes": [
+      {
+        "bg": "street",
+        "time": "night",
+        "cast": [
+          "her",
+          "him"
+        ],
+        "lines": [
+          {
+            "who": "her",
+            "say": "You walked me home.",
+            "mood": "smile"
+          },
+          {
+            "who": "him",
+            "say": "Obviously.",
+            "mood": "flat"
+          },
+          {
+            "who": "her",
+            "say": "Where's your umbrella?",
+            "mood": "open",
+            "prop": "umbrella"
+          },
+          {
+            "who": "him",
+            "say": "Didn't need one.",
+            "mood": "flat"
+          }
+        ]
+      },
+      {
+        "bg": "street",
+        "time": "night",
+        "cast": [
+          "her",
+          "him"
+        ],
+        "lines": [
+          {
+            "who": "her",
+            "say": "You're shaking.",
+            "mood": "frown",
+            "react": true
+          },
+          {
+            "who": "him",
+            "say": "I'm not.",
+            "mood": "flat"
+          },
+          {
+            "who": "her",
+            "say": "Your lips are blue.",
+            "mood": "open",
+            "cam": "close"
+          },
+          {
+            "who": "him",
+            "say": "It's a look.",
+            "mood": "wavy",
+            "react": true,
+            "sfx": "gasp",
+            "cam": "snap"
+          }
+        ]
+      },
+      {
+        "bg": "room",
+        "time": "day",
+        "cast": [
+          "her",
+          "him"
+        ],
+        "lines": [
+          {
+            "who": "her",
+            "say": "I brought soup.",
+            "mood": "smile",
+            "prop": "coffee",
+            "sfx": "step"
+          },
+          {
+            "who": "him",
+            "say": "I'm not sick.",
+            "mood": "flat",
+            "figure": "sit"
+          },
+          {
+            "who": "her",
+            "say": "You're in my hoodie.",
+            "mood": "smile",
+            "react": true,
+            "sfx": "heart",
+            "cam": "snap"
+          }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "He still says he wasn't cold.",
+      "lines": [
+        "He still says",
+        "he wasn't *cold*."
+      ]
+    },
+    "end": {
+      "lines": [
+        "Send this to",
+        "the one who",
+        "never *admits* it."
+      ],
+      "pill": "SEND IT"
+    },
+    "caption": "He wasn't cold. He was committed.",
+    "hashtags": [
+      "#love",
+      "#relationships",
+      "#couples",
+      "#storytime",
+      "#relatable"
+    ]
+  },
+  {
+    "id": "the-alarm",
+    "subject": "47 alarms",
+    "pillar": "funny",
+    "format": "scene",
+    "style": "comic",
+    "motion": "snap",
+    "mode": "music",
+    "music": "bright",
+    "hook": {
+      "say": "He has 47 alarms.",
+      "lines": [
+        "He has",
+        "47 *alarms*."
+      ],
+      "prop": "clock"
+    },
+    "cast": {
+      "her": {
+        "figure": "stand",
+        "mood": "flat",
+        "accent": "#C2185B",
+        "x": 0.34
+      },
+      "him": {
+        "figure": "stand",
+        "mood": "smile",
+        "accent": "#C9A227",
+        "x": 0.66
+      }
+    },
+    "scenes": [
+      {
+        "bg": "room",
+        "time": "night",
+        "cast": [
+          "her",
+          "him"
+        ],
+        "lines": [
+          {
+            "who": "her",
+            "say": "Why 47 alarms?",
+            "mood": "flat"
+          },
+          {
+            "who": "him",
+            "say": "I need all of them.",
+            "mood": "smile"
+          }
+        ]
+      },
+      {
+        "bg": "room",
+        "time": "day",
+        "cast": [
+          "her",
+          "him"
+        ],
+        "lines": [
+          {
+            "who": "him",
+            "say": "I'm up.",
+            "mood": "open",
+            "sfx": "alarm",
+            "cam": "snap"
+          },
+          {
+            "who": "her",
+            "say": "You're not.",
+            "mood": "flat",
+            "react": true
+          },
+          {
+            "who": "him",
+            "say": "I am.",
+            "mood": "smile",
+            "sfx": "alarm"
+          },
+          {
+            "who": "her",
+            "say": "They stopped an hour ago.",
+            "mood": "frown",
+            "react": true,
+            "cam": "close"
+          }
+        ]
+      },
+      {
+        "bg": "kitchen",
+        "time": "day",
+        "cast": [
+          "her",
+          "him"
+        ],
+        "lines": [
+          {
+            "who": "him",
+            "say": "I was resting my eyes.",
+            "mood": "wavy",
+            "sfx": "boing",
+            "cam": "close"
+          },
+          {
+            "who": "her",
+            "say": "It's 11am.",
+            "mood": "flat"
+          }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "He was asleep.",
+      "lines": [
+        "He was",
+        "*asleep*."
+      ]
+    },
+    "end": {
+      "lines": [
+        "Send this to",
+        "the *47-alarm* person."
+      ],
+      "pill": "SEND IT"
+    },
+    "caption": "The last alarm is the only one he trusts.",
+    "hashtags": [
+      "#funny",
+      "#relatable",
+      "#sleep",
+      "#morning",
+      "#storytime"
+    ]
+  }
+]

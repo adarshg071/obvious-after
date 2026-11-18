@@ -1,0 +1,312 @@
+{
+  "id": "ep-010",
+  "title": "before ten",
+  "seed": "ep-010",
+  "grade": "morning",
+  "fps": 30,
+  "music": "warm",
+  "ambience": "dawn",
+  "leadIn": 0.25,
+  "gap": 0.18,
+  "tail": 0.3,
+  "characters": [
+    "meera"
+  ],
+  "scenes": [
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "closed",
+        "lights": "off",
+        "clock": [
+          6,
+          52
+        ]
+      },
+      "tail": 0.4,
+      "fx": [
+        "click"
+      ],
+      "cam": {
+        "shot": "ots",
+        "move": "push",
+        "angle": 2,
+        "targetX": -0.06,
+        "targetY": 1.72,
+        "targetZ": -2.9,
+        "fovAdd": 4
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -0.38,
+          "z": -2.6,
+          "pose": "idle",
+          "faceTo": 0.38,
+          "business": "key",
+          "props": [],
+          "wardrobe": "morning"
+        }
+      ],
+      "caption": {
+        "text": "*6:52* A.M. · THE BRANCH LIBRARY",
+        "from": 0.35,
+        "dur": 1.5,
+        "size": 34,
+        "y": 0.635
+      },
+      "lines": [
+        {
+          "mode": "narration",
+          "say": "She unlocks a door nobody is waiting behind.",
+          "dur": 3.3
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "closed",
+        "lights": "stagger",
+        "clock": [
+          6,
+          53
+        ],
+        "stagger": [
+          0.5,
+          1.2,
+          1.9
+        ]
+      },
+      "tail": 0.3,
+      "hold": 1.5,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": -14,
+        "targetX": -3.18,
+        "targetY": 1.55,
+        "targetZ": -0.8,
+        "fovAdd": 0
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -3.3,
+          "z": -1.0,
+          "pose": "idle",
+          "faceTo": -0.15,
+          "business": "tap",
+          "props": [],
+          "wardrobe": "morning"
+        }
+      ],
+      "lines": [
+        {
+          "mode": "narration",
+          "say": "Every light in the room. Even the one over her desk.",
+          "dur": 3.8
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "closed",
+        "lights": "on",
+        "clock": [
+          6,
+          58
+        ]
+      },
+      "tail": 0.3,
+      "hold": 1,
+      "fx": [
+        "squeak"
+      ],
+      "cam": {
+        "shot": "ots",
+        "move": "push",
+        "angle": 96,
+        "y": 1.25,
+        "targetX": -1.55,
+        "targetY": 1.28,
+        "targetZ": -0.15,
+        "fovAdd": 0
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": -2.1,
+          "z": -0.15,
+          "pose": "idle",
+          "faceTo": 1.57,
+          "business": "push",
+          "wardrobe": "morning",
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "mode": "narration",
+          "react": "down",
+          "say": "The wheel has squeaked since 2019. She's never fixed it.",
+          "dur": 3.5
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "closed",
+        "lights": "on",
+        "clock": [
+          7,
+          0
+        ]
+      },
+      "tail": 0.3,
+      "hold": 2.6,
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 0,
+        "targetX": 0,
+        "targetY": 2.62,
+        "targetZ": -2.87,
+        "fovAdd": -17
+      },
+      "cast": [],
+      "lines": []
+    },
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "swing",
+        "sign": "open",
+        "lights": "on",
+        "clock": [
+          7,
+          0
+        ]
+      },
+      "tail": 0.35,
+      "hold": 2.2,
+      "fx": [
+        "door"
+      ],
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": -8,
+        "y": 1.65,
+        "targetX": 0.35,
+        "targetY": 1.55,
+        "targetZ": -2.9,
+        "fovAdd": 8
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.62,
+          "z": -2.6,
+          "pose": "idle",
+          "faceTo": 3.14,
+          "props": [],
+          "wardrobe": "morning"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "open",
+        "sign": "open",
+        "lights": "on",
+        "clock": [
+          7,
+          0
+        ]
+      },
+      "tail": 0.3,
+      "hold": 0.9,
+      "cam": {
+        "shot": "close",
+        "move": "push",
+        "angle": 20,
+        "targetX": 0.75,
+        "targetY": 1.55,
+        "targetZ": 1,
+        "fovAdd": 4
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.85,
+          "z": 0.42,
+          "pose": "sit",
+          "faceTo": 0,
+          "business": "read",
+          "wardrobe": "morning",
+          "props": []
+        }
+      ],
+      "lines": [
+        {
+          "mode": "narration",
+          "react": "down",
+          "say": "Nobody comes before ten.",
+          "dur": 2.2
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "opts": {
+        "morning": true,
+        "door": "open",
+        "sign": "open",
+        "lights": "on",
+        "clock": [
+          7,
+          0
+        ]
+      },
+      "tail": 1,
+      "cam": {
+        "shot": "close",
+        "move": "static",
+        "angle": -4,
+        "targetX": 0.45,
+        "targetY": 1.55,
+        "targetZ": -2.85,
+        "fovAdd": 14
+      },
+      "cast": [
+        {
+          "id": "meera",
+          "x": 0.95,
+          "z": -2.2,
+          "pose": "idle",
+          "faceTo": -0.2,
+          "props": [],
+          "wardrobe": "morning"
+        }
+      ],
+      "lines": [
+        {
+          "mode": "narration",
+          "say": "She opens at seven.",
+          "dur": 2.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "last-train",
+    "subject": "the last train",
+    "pillar": "love",
+    "format": "scene",
+    "style": "love",
+    "motion": "drift",
+    "mode": "music",
+    "music": "warm",
+    "hook": {
+      "say": "He was late. That wasn't the problem.",
+      "lines": ["He was *late*.", "That wasn't", "the problem."]
+    },
+    "cast": {
+      "her": { "figure": "stand", "mood": "flat", "accent": "#8E3B5E", "x": 0.32 },
+      "him": { "figure": "stand", "mood": "open", "accent": "#E4572E", "x": 0.68 },
+      "friend": { "figure": "sit", "mood": "smile", "accent": "#3E6B8E", "x": 0.86 }
+    },
+    "scenes": [
+      {
+        "bg": "street",
+        "time": "night",
+        "cast": ["her", "him"],
+        "lines": [
+          { "who": "her", "say": "You're late.", "mood": "flat" },
+          { "who": "him", "say": "The train was late.", "mood": "open" },
+          { "who": "her", "say": "The train is always late.", "mood": "flat" },
+          { "who": "her", "say": "You're always later.", "mood": "frown" }
+        ]
+      },
+      {
+        "bg": "room",
+        "time": "night",
+        "cast": ["her", "him", "friend"],
+        "lines": [
+          { "who": "friend", "say": "Just tell her.", "mood": "smile" },
+          { "who": "him", "say": "Tell her what.", "mood": "open" },
+          { "who": "friend", "say": "That you ran.", "mood": "flat" }
+        ]
+      },
+      {
+        "bg": "street",
+        "time": "day",
+        "cast": ["her", "him"],
+        "lines": [
+          { "who": "him", "say": "I ran. The whole way.", "mood": "wavy" },
+          { "who": "her", "say": "You could have just said that.", "mood": "open" },
+          { "who": "him", "say": "I know. I'm saying it now.", "mood": "smile" }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "Some people run late. Some people just run.",
+      "lines": ["Some people run *late*.", "Some people", "just *run*."]
+    },
+    "end": { "pill": "SEND THIS TO THEM" },
+    "caption": "He ran. That's the whole story.",
+    "hashtags": ["#love", "#relationships", "#couples", "#dating", "#storytime"]
+  },
+  {
+    "id": "group-chat-meets",
+    "subject": "the group chat meets up",
+    "pillar": "funny",
+    "format": "scene",
+    "style": "comic",
+    "motion": "snap",
+    "mode": "music",
+    "music": "bright",
+    "hook": {
+      "say": "They finally met up. Four of them. Guess how many showed.",
+      "lines": ["They finally", "met *up*.", "Guess how many."],
+      "icon": "phone"
+    },
+    "cast": {
+      "organiser": { "figure": "wave", "mood": "open", "accent": "#E4572E", "x": 0.16 },
+      "ghost": { "figure": "slump", "mood": "flat", "accent": "#3E6B8E", "x": 0.36 },
+      "essayist": { "figure": "stand", "mood": "smile", "accent": "#8E3B5E", "x": 0.6 },
+      "gremlin": { "figure": "sit", "mood": "wavy", "accent": "#C9A227", "x": 0.84 },
+      "waiter": { "figure": "stand", "mood": "flat", "accent": "#4F7A5A", "x": 0.36 }
+    },
+    "scenes": [
+      {
+        "bg": "cafe",
+        "time": "day",
+        "cast": ["organiser", "ghost", "essayist", "gremlin"],
+        "lines": [
+          { "who": "organiser", "say": "He said he's coming.", "mood": "open" },
+          { "who": "ghost", "say": "He said that in March.", "mood": "flat" }
+        ]
+      },
+      {
+        "bg": "cafe",
+        "time": "day",
+        "cast": ["organiser", "essayist", "gremlin", "waiter"],
+        "lines": [
+          { "who": "waiter", "say": "Are you ready to order?", "mood": "flat" },
+          { "who": "essayist", "say": "In a sense. But what is ready.", "mood": "open" },
+          { "who": "gremlin", "say": "I'll have what he's having.", "mood": "smile" },
+          { "who": "organiser", "say": "He's not here.", "mood": "flat" }
+        ]
+      },
+      {
+        "bg": "street",
+        "time": "night",
+        "cast": ["organiser", "ghost", "essayist", "gremlin"],
+        "lines": [
+          { "who": "ghost", "say": "sorry, just saw this.", "mood": "flat" },
+          { "who": "organiser", "say": "IT IS 9PM.", "mood": "frown" },
+          { "who": "essayist", "say": "To be fair, time is a construct.", "mood": "smile" }
+        ]
+      }
+    ],
+    "kicker": {
+      "say": "The meet-up happened. He was there in spirit.",
+      "lines": ["The meet-up *happened*.", "He was there", "in *spirit*."]
+    },
+    "end": { "pill": "SEND THIS TO THEM" },
+    "caption": "We met up. He replied at 9pm.",
+    "hashtags": ["#groupchat", "#funny", "#relatable", "#friends", "#storytime"]
+  }
+]

@@ -1,0 +1,363 @@
+{
+  "slug": "five-minutes",
+  "mode": "music",
+  "style": "comic",
+  "motion": "snap",
+  "format": "scene",
+  "cast": {
+    "organiser": {
+      "figure": "stand",
+      "mood": "open",
+      "accent": "#E4572E",
+      "x": 0.3
+    },
+    "ghost": {
+      "figure": "slump",
+      "mood": "flat",
+      "accent": "#3E6B8E",
+      "x": 0.58
+    },
+    "him": {
+      "figure": "wave",
+      "mood": "smile",
+      "accent": "#C9A227",
+      "x": 0.8
+    }
+  },
+  "scenes": [
+    {
+      "bg": "cafe",
+      "time": "day",
+      "cast": [
+        "organiser",
+        "ghost"
+      ],
+      "lines": [
+        {
+          "who": "organiser",
+          "say": "He's five minutes away.",
+          "mood": "open"
+        },
+        {
+          "who": "ghost",
+          "say": "He texted that at 8.",
+          "mood": "flat"
+        },
+        {
+          "who": "organiser",
+          "say": "He's close.",
+          "mood": "smile"
+        },
+        {
+          "who": "ghost",
+          "say": "He's in bed.",
+          "mood": "flat",
+          "cam": "push"
+        }
+      ],
+      "pos": null
+    },
+    {
+      "bg": "room",
+      "time": "night",
+      "cast": [
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "him",
+          "say": "5 min.",
+          "mood": "flat",
+          "figure": "slump",
+          "prop": "phone",
+          "cam": "push"
+        },
+        {
+          "who": "him",
+          "say": "Send.",
+          "mood": "smile",
+          "figure": "slump",
+          "prop": "phone"
+        }
+      ],
+      "pos": {
+        "him": 0.5
+      }
+    },
+    {
+      "bg": "street",
+      "time": "night",
+      "cast": [
+        "organiser",
+        "ghost",
+        "him"
+      ],
+      "lines": [
+        {
+          "who": "him",
+          "say": "Sorry. Traffic.",
+          "mood": "open"
+        },
+        {
+          "who": "organiser",
+          "say": "You live upstairs.",
+          "mood": "frown"
+        },
+        {
+          "who": "him",
+          "say": "It's a long staircase.",
+          "mood": "smile"
+        },
+        {
+          "who": "ghost",
+          "say": "We watched you put pyjamas on.",
+          "mood": "flat",
+          "duck": true
+        }
+      ],
+      "pos": null
+    }
+  ],
+  "accent": "#00B36B",
+  "duration": 24.389999999999997,
+  "theme": {
+    "paper": "#FFF8E1",
+    "ink": "#14110F",
+    "muted": "#6B6257"
+  },
+  "brand": {
+    "tagline": "the stuff nobody teaches you",
+    "handle": "obviousafter",
+    "showHandle": false
+  },
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 3.3200000000000003,
+      "accent": "#00B36B",
+      "lines": [
+        [
+          {
+            "t": "He said ",
+            "hl": false
+          },
+          {
+            "t": "five",
+            "hl": true
+          },
+          {
+            "t": " minutes.",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "It's been an hour.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "clock",
+      "scene": 0,
+      "text": "He said five minutes. It's been an hour.",
+      "prop": null
+    },
+    {
+      "kind": "line",
+      "t0": 3.5000000000000004,
+      "t1": 5.010000000000001,
+      "accent": "#00B36B",
+      "mood": "open",
+      "figure": null,
+      "who": "organiser",
+      "scene": 0,
+      "text": "He's five minutes away.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 5.130000000000001,
+      "t1": 6.880000000000001,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": null,
+      "who": "ghost",
+      "scene": 0,
+      "text": "He texted that at 8.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 7.000000000000001,
+      "t1": 8.030000000000001,
+      "accent": "#00B36B",
+      "mood": "smile",
+      "figure": null,
+      "who": "organiser",
+      "scene": 0,
+      "text": "He's close.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 8.15,
+      "t1": 9.42,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": null,
+      "who": "ghost",
+      "scene": 0,
+      "text": "He's in bed.",
+      "prop": null,
+      "cam": "push"
+    },
+    {
+      "kind": "line",
+      "t0": 9.54,
+      "t1": 10.569999999999999,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": "slump",
+      "who": "him",
+      "scene": 1,
+      "text": "5 min.",
+      "prop": "phone",
+      "cam": "push"
+    },
+    {
+      "kind": "line",
+      "t0": 10.689999999999998,
+      "t1": 11.589999999999998,
+      "accent": "#00B36B",
+      "mood": "smile",
+      "figure": "slump",
+      "who": "him",
+      "scene": 1,
+      "text": "Send.",
+      "prop": "phone",
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 11.709999999999997,
+      "t1": 12.739999999999997,
+      "accent": "#00B36B",
+      "mood": "open",
+      "figure": null,
+      "who": "him",
+      "scene": 2,
+      "text": "Sorry. Traffic.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 12.859999999999996,
+      "t1": 14.129999999999995,
+      "accent": "#00B36B",
+      "mood": "frown",
+      "figure": null,
+      "who": "organiser",
+      "scene": 2,
+      "text": "You live upstairs.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 14.249999999999995,
+      "t1": 15.759999999999994,
+      "accent": "#00B36B",
+      "mood": "smile",
+      "figure": null,
+      "who": "him",
+      "scene": 2,
+      "text": "It's a long staircase.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "line",
+      "t0": 15.879999999999994,
+      "t1": 17.869999999999994,
+      "accent": "#00B36B",
+      "mood": "flat",
+      "figure": null,
+      "who": "ghost",
+      "scene": 2,
+      "text": "We watched you put pyjamas on.",
+      "prop": null,
+      "cam": null
+    },
+    {
+      "kind": "kicker",
+      "t0": 17.989999999999995,
+      "t1": 21.089999999999996,
+      "accent": "#00B36B",
+      "lines": [
+        [
+          {
+            "t": "Some people are late.",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "He's a",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "concept",
+            "hl": true
+          },
+          {
+            "t": ".",
+            "hl": false
+          }
+        ]
+      ],
+      "text": "Some people are late. He's a concept."
+    },
+    {
+      "kind": "end",
+      "t0": 21.309999999999995,
+      "t1": 24.109999999999996,
+      "accent": "#00B36B",
+      "lines": [
+        [
+          {
+            "t": "Tag the one",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "who's always",
+            "hl": false
+          }
+        ],
+        [
+          {
+            "t": "five",
+            "hl": true
+          },
+          {
+            "t": " minutes away.",
+            "hl": false
+          }
+        ]
+      ],
+      "icon": "burst",
+      "text": "Tag the one who's always *five* minutes away.",
+      "sub": "@obviousafter",
+      "pill": "TAG THEM"
+    }
+  ],
+  "caps": []
+}

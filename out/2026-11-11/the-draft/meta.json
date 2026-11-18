@@ -1,0 +1,82 @@
+{
+  "slug": "the-draft",
+  "subject": "the draft",
+  "duration": 18.169999999999998,
+  "createdAt": "2026-11-11T04:00:20.024Z",
+  "caption": "She rewrote hey six times.",
+  "hashtags": [
+    "#love",
+    "#relationships",
+    "#overthinking",
+    "#storytime",
+    "#relatable"
+  ],
+  "beats": [
+    {
+      "kind": "hook",
+      "t0": 0.12,
+      "t1": 2.52,
+      "text": "She typed hey. Deleted it."
+    },
+    {
+      "kind": "line",
+      "t0": 2.7,
+      "t1": 4.21,
+      "text": "It's just a text."
+    },
+    {
+      "kind": "line",
+      "t0": 4.33,
+      "t1": 5.38,
+      "text": "Hey."
+    },
+    {
+      "kind": "line",
+      "t0": 5.5,
+      "t1": 6.4,
+      "text": "No."
+    },
+    {
+      "kind": "line",
+      "t0": 6.52,
+      "t1": 7.57,
+      "text": "Heyyy."
+    },
+    {
+      "kind": "line",
+      "t0": 7.69,
+      "t1": 8.69,
+      "text": "Too much."
+    },
+    {
+      "kind": "line",
+      "t0": 8.81,
+      "t1": 9.81,
+      "text": "Hey."
+    },
+    {
+      "kind": "line",
+      "t0": 9.93,
+      "t1": 11.13,
+      "text": "He's typing."
+    },
+    {
+      "kind": "line",
+      "t0": 11.25,
+      "t1": 13.25,
+      "text": "He said: I'm outside."
+    },
+    {
+      "kind": "kicker",
+      "t0": 13.37,
+      "t1": 15.57,
+      "text": "He was already outside."
+    },
+    {
+      "kind": "end",
+      "t0": 15.79,
+      "t1": 17.89,
+      "text": "Send this to the *overthinker*."
+    }
+  ]
+}
