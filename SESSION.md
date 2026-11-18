@@ -3,8 +3,9 @@
 One file, everything done. New sessions are appended at the bottom (newest last); older
 sessions are never rewritten, only corrected if a fact was wrong.
 
-- **Last session:** 2026-11-15 — `ep-006` **forty pages** posted to Instagram and YouTube.
-- **Next:** 2026-11-16 reel. Storyboard first, in `stories/`, before any scene work.
+- **Last session:** 2026-11-17 — `ep-010` **before ten** posted to Instagram and YouTube, and
+  the repo pushed to GitHub with the render toolchain in it.
+- **Next:** 2026-11-18 reel. Storyboard first, in `stories/`, before any scene work.
 - Superseded session files: `SESSION-2026-11-08.md` and `SESSION-2026-11-11.md` were folded
   into this file and deleted on 2026-11-15.
 
@@ -332,3 +333,51 @@ Loudness verified: −14.6 LUFS integrated, −2.7 dBTP.
 
 **Solo reels.** One character works when the absence is the point — the room is the second
 character here. Do not use solo to skip writing the second person.
+
+## 2026-11-17 (later) — the repo goes to GitHub
+
+`https://github.com/adarshg071/obvious-after`, branch `main`. The first attempt committed the
+whole working tree — 26,473 files, a 1.09 GiB pack — and could never have pushed. Rewrote it as
+one clean commit (nothing had been pushed, so `.git` was deleted and re-initialised rather than
+filtered) and shipped only what the renderer calls.
+
+**Tracked, because the pipeline calls it**
+
+| path | why |
+|---|---|
+| `bin/ffmpeg`, `bin/ffprobe` | `src/lib/paths.js` invokes them by path on every render. 76 MB each |
+| `vendor/lemo-opuscar/core/audio/` | the synth behind `src/audio/bed.py` — pluck, sampler, sfx (68 KB) |
+| `assets/fonts/` | Inter, for cards and titles |
+| `requirements.txt` | numpy 2.5.4 / scipy 1.18.1 / soundfile 0.14.0 / soxr 1.1.0 |
+| `package-lock.json` | `three` + `puppeteer-core`; `npm ci` |
+
+**Not tracked, and why** (all written into `.gitignore` with the reason)
+
+- `tools/` — whisper.cpp is a 700 MB binary over 640 MB of models, plus Remotion and
+  HyperFrames with their Chromium and webpack caches. Editing helpers, not render deps.
+- `voices/`, `bin/piper`, `bin/yt-dlp` — TTS and downloading. Nobody speaks in these reels.
+- `.cache/` — a second copy of the same static FFmpeg.
+- `out/**/*.mp4|mp3|jpg|png|html` — 400 MB of frames and encodes for reels already live. Notes,
+  `.srt` and manifests stay tracked.
+- `node_modules/`, `.tmp/`, `.playwright-mcp/`, `__pycache__/`, `ig-*.png`.
+
+**Code changes this needed**
+
+- `src/audio/bed.py` now resolves the synth from `vendor/lemo-opuscar` (still overridable with
+  `LEMO_OPUSCAR_HOME`) instead of `~/lemo-opuscar`, so a clone renders the same mix without the
+  667 MB skill install. Verified: rebuilt `ep-010` audio, 26.6 s, −14.6 LUFS, −2.7 dBTP —
+  identical to what was published.
+- `src/world3d/index.js` picks the python interpreter in order: `$MUSIC_PY`, `./.venv/bin/python`,
+  `~/lemo-opuscar/.venv/bin/python`, `python3`. The old hard-coded absolute path meant a clone
+  could not build audio at all.
+- `SETUP.md` gained a table of what is in the repo, what is not, and the one thing a clone still
+  needs outside it: Chrome at `/usr/bin/google-chrome` (override with `CHROME_PATH`).
+
+**Gotchas for next time**
+
+- GitHub warns above 50 MB per file and blocks above 100 MB. `bin/ffmpeg` at 76 MB pushes with a
+  warning; anything bigger needs Git LFS or a download script.
+- `pkill -f "node src/world3d/index.js"` kills the shell running it too, because the pattern
+  matches its own `bash -c` command line. Use the PID.
+- `du -sh` on the working tree is not the repo size — measure with
+  `git ls-files -z | xargs -0 du -b | awk '{s+=$1} END {print s/1048576}'`.
